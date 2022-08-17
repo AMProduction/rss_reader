@@ -7,7 +7,6 @@ import sys
 import time
 
 import feedparser
-import requests
 
 from src import utilities
 from src.rss_reader_errors import *
@@ -46,21 +45,21 @@ class RSSReader:
         self._print_log_message("Getting RSS-feed")
         try:
             rss_feed = self._get_feed(self._rss_feed_url)
-        except URLNotFoundError:
-            print("The URL not found. Check the URL and try again")
+        except URLNotFoundError as err:
+            print("The URL not found. Check the URL and try again", str(err))
             sys.exit(1)
-        except InvalidURLError:
-            print("The invalid URL was provided. Check the URL and try again")
+        except InvalidURLError as err:
+            print("The invalid URL was provided. Check the URL and try again", str(err))
             sys.exit(1)
-        except IncorrectURLError:
-            print("The incorrect URL was provided. Check the URL and try again")
+        except IncorrectURLError as err:
+            print("The incorrect URL was provided. Check the URL and try again", str(err))
             sys.exit(1)
 
         self._print_log_message("Getting posts")
         try:
             data = self._get_posts_details(rss_feed)
-        except RSSParsingError:
-            print("RSS feed parsing error occurred")
+        except RSSParsingError as err:
+            print("RSS feed parsing error occurred", str(err))
             sys.exit(1)
 
         if self._JSON_mode:
@@ -89,16 +88,8 @@ class RSSReader:
         :param str url: an RSS-feed URL
         :return: an RSS-feed object
         """
-        try:
-            requests.get(url)
-        except requests.exceptions.ConnectionError:
-            raise URLNotFoundError
-        except requests.exceptions.InvalidURL:
-            raise InvalidURLError
-        except requests.exceptions.RequestException:
-            raise IncorrectURLError
-        rss_feed = feedparser.parse(url)
-        return rss_feed
+        utilities.check_feed_url(url)
+        return feedparser.parse(url)
 
     def _get_posts_details(self, rss_feed) -> dict:
         """
@@ -166,13 +157,10 @@ class RSSReader:
         """
         post = dict()
         self._print_log_message("Getting a post")
-        try:
-            post['title'] = entry.title
-            post['date'] = time.strftime('%Y-%m-%d', entry.published_parsed)
-            post['link'] = entry.link
-            post['links'] = [link.href for link in entry.links]
-        except:
-            pass
+        post['title'] = entry.title
+        post['date'] = time.strftime('%Y-%m-%d', entry.published_parsed)
+        post['link'] = entry.link
+        post['links'] = [link.href for link in entry.links]
 
         return post
 
