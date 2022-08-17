@@ -3,11 +3,14 @@
 #  Licensed under the MIT License
 #  Copyright (c) 2022.
 import json
+import sys
 import time
 
 import feedparser
+import requests
 
 from src import utilities
+from src.rss_reader_errors import *
 
 
 class RSSReader:
@@ -39,16 +42,34 @@ class RSSReader:
         :return: None
         """
         self._print_log_message("Program started")
+
         self._print_log_message("Getting RSS-feed")
-        rss_feed = self._get_feed(self._rss_feed_url)
+        try:
+            rss_feed = self._get_feed(self._rss_feed_url)
+        except URLNotFoundError:
+            print("The URL not found. Check the URL and try again")
+            sys.exit(1)
+        except InvalidURLError:
+            print("The invalid URL was provided. Check the URL and try again")
+            sys.exit(1)
+        except IncorrectURLError:
+            print("The incorrect URL was provided. Check the URL and try again")
+            sys.exit(1)
+
         self._print_log_message("Getting posts")
-        data = self._get_posts_details(rss_feed)
+        try:
+            data = self._get_posts_details(rss_feed)
+        except RSSParsingError:
+            print("RSS feed parsing error occurred")
+            sys.exit(1)
+
         if self._JSON_mode:
             self._print_log_message("JSON mode on")
             self._show_rss_as_json(data)
         else:
             self._print_log_message("Plain text mode on")
             self._show_rss_as_plain_text(data)
+
         self._print_log_message("Program ended")
 
     def _print_log_message(self, message: str) -> None:
@@ -68,7 +89,16 @@ class RSSReader:
         :param str url: an RSS-feed URL
         :return: an RSS-feed object
         """
-        return feedparser.parse(url)
+        try:
+            requests.get(url)
+        except requests.exceptions.ConnectionError:
+            raise URLNotFoundError
+        except requests.exceptions.InvalidURL:
+            raise InvalidURLError
+        except requests.exceptions.RequestException:
+            raise IncorrectURLError
+        rss_feed = feedparser.parse(url)
+        return rss_feed
 
     def _get_posts_details(self, rss_feed) -> dict:
         """
@@ -80,6 +110,34 @@ class RSSReader:
         posts_details = {"Blog title": self._get_feed_name(rss_feed), "Blog link": self._get_feed_link(rss_feed),
                          "posts": self._get_posts_list()}
         return posts_details
+
+    def _get_feed_name(self, rss_feed) -> str:
+        """
+        Return the RSS-feed name
+
+        :param rss_feed: an RSS-feed object
+        :return: str the RSS-feed name
+        """
+        self._print_log_message("Getting the feed name")
+        try:
+            feed_name = rss_feed.feed.title
+        except AttributeError:
+            raise RSSParsingError
+        return feed_name
+
+    def _get_feed_link(self, rss_feed) -> str:
+        """
+        Return the RSS-feed link
+
+        :param rss_feed: an RSS-feed object
+        :return: str the RSS-feed link
+        """
+        self._print_log_message("Getting the feed link")
+        try:
+            feed_link = rss_feed.feed.link
+        except AttributeError:
+            raise RSSParsingError
+        return feed_link
 
     def _get_posts_list(self) -> list:
         """
@@ -118,31 +176,11 @@ class RSSReader:
 
         return post
 
-    def _get_feed_name(self, rss_feed) -> str:
-        """
-        Return the RSS-feed name
-
-        :param rss_feed: an RSS-feed object
-        :return: str
-        """
-        self._print_log_message("Getting the feed name")
-        return rss_feed.feed.title
-
-    def _get_feed_link(self, rss_feed) -> str:
-        """
-        Return the RSS-feed link
-
-        :param rss_feed: an RSS-feed object
-        :return: str
-        """
-        self._print_log_message("Getting the feed link")
-        return rss_feed.feed.link
-
     def _show_rss_as_plain_text(self, data) -> None:
         """
         Print results in human-readable format
 
-        :param data:
+        :param data: a formatted dictionary of RSS feed topics
         :return: None
         """
         if self._is_print_all():
@@ -156,7 +194,7 @@ class RSSReader:
         """
         Print results in JSON
 
-        :param data:
+        :param data: a formatted dictionary of RSS feed topics
         :return: None
         """
         if self._is_print_all():
@@ -182,7 +220,7 @@ class RSSReader:
         Return the RSS-feed topics count
 
         :param rss_feed: an RSS-feed object
-        :return:
+        :return: int the RSS-feed topics count
         """
         self._print_log_message("Getting the feed length")
         return len(rss_feed.entries)
@@ -191,7 +229,7 @@ class RSSReader:
         """
         Limit news topics
 
-        :param data:
+        :param data: a formatted dictionary of RSS feed topics
         :return: None
         """
         limit = 0

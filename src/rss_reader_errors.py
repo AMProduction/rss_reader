@@ -5,3 +5,19 @@
 
 class RSSReaderErrors(Exception):
     pass
+
+
+class RSSParsingError(RSSReaderErrors):
+    pass
+
+
+class URLNotFoundError(RSSReaderErrors):
+    pass
+
+
+class InvalidURLError(RSSReaderErrors):
+    pass
+
+
+class IncorrectURLError(RSSReaderErrors):
+    pass
