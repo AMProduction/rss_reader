@@ -48,6 +48,6 @@ python rss_reader.py "https://news.yahoo.com/rss/" --limit -3 --verbose --json
 ### How to run autotests
 
 ```
-$ python -m unittest discover
+$ python -m unittest discover -v
 ```
 
