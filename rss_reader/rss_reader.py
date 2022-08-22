@@ -46,6 +46,10 @@ def set_limit(arguments) -> int:
         return 0
 
 
-if __name__ == '__main__':
+def main():
     rss_reader = RSSReader(args.url, check_is_JSON_needed(args), check_is_verbose(args), set_limit(args))
     rss_reader.show_rss()
+
+
+if __name__ == '__main__':
+    main()
