@@ -26,6 +26,10 @@ parser.add_argument('--limit',
                     action='store',
                     type=int,
                     help='Limit news topics if this parameter provided')
+parser.add_argument('--date',
+                    action='store',
+                    type=str,
+                    help='The date getting news from local storage')
 # parsing CLI arguments
 args = parser.parse_args()
 
@@ -46,8 +50,13 @@ def set_limit(arguments) -> int:
         return 0
 
 
+def set_date(arguments) -> str:
+    return arguments.date
+
+
 def main():
-    rss_reader = RSSReader(args.url, check_is_JSON_needed(args), check_is_verbose(args), set_limit(args))
+    rss_reader = RSSReader(args.url, check_is_JSON_needed(args), check_is_verbose(args), set_limit(args),
+                           set_date(args))
     rss_reader.show_rss()
 
 

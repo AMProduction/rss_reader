@@ -19,8 +19,10 @@ class RSSReader:
     _JSON_mode = False
     _verbose_mode = False
     _limit = 0
+    _date = ""
+    _news_folder = 'news'
 
-    def __init__(self, url, is_JSON_needed=False, is_verbose=False, limit=0) -> None:
+    def __init__(self, url, is_JSON_needed=False, is_verbose=False, limit=0, date="") -> None:
         """
         The class constructor
 
@@ -33,6 +35,7 @@ class RSSReader:
         self._JSON_mode = is_JSON_needed
         self._verbose_mode = is_verbose
         self._limit = limit
+        self._date = date
 
     def show_rss(self) -> None:
         """
@@ -41,6 +44,8 @@ class RSSReader:
         :return: None
         """
         self._print_log_message("Program started")
+
+        self._search_historical_data(self._date)
 
         self._print_log_message("Getting RSS-feed")
         try:
@@ -69,6 +74,8 @@ class RSSReader:
             self._print_log_message("Plain text mode on")
             self._show_rss_as_plain_text(data)
 
+        self._save_historical_data(data)
+
         self._print_log_message("Program ended")
 
     def _print_log_message(self, message: str) -> None:
@@ -79,7 +86,7 @@ class RSSReader:
         :return: None
         """
         if self._verbose_mode:
-            print(message, utilities.get_current_date())
+            print(message, utilities.get_formatted_current_date_for_log())
 
     def _get_feed(self, url):
         """
@@ -158,7 +165,7 @@ class RSSReader:
         post = dict()
         self._print_log_message("Getting a post")
         post['title'] = entry.title
-        post['date'] = time.strftime('%Y-%m-%d', entry.published_parsed)
+        post['date'] = time.strftime('%Y%m%d', entry.published_parsed)
         post['link'] = entry.link
         post['links'] = [link.href for link in entry.links]
 
@@ -228,3 +235,29 @@ class RSSReader:
             limit += 1
             if limit == self._limit:
                 break
+
+    def _search_historical_data(self, date: str) -> None:
+        if date is not None:
+            try:
+                utilities.validate_news_date_argument(self._date)
+            except InvalidNewsDateError as err:
+                print("The invalid date. The date should be in 'yyyymmdd' format", str(err))
+                sys.exit(1)
+            if utilities.is_dir_exists(self._news_folder):
+                self._print_log_message("Searching news...")
+                utilities.search_and_print(self._news_folder, self._date)
+            else:
+                self._print_log_message("News folder not found. Creating...")
+                utilities.create_news_folder(self._news_folder)
+                self._print_log_message("News saved successfully")
+        else:
+            self._print_log_message("Date for searching was not provided")
+
+    def _save_historical_data(self, data) -> None:
+        file_name = utilities.get_file_name(self._news_folder, data)
+        if not utilities.is_file_exists(file_name):
+            self._print_log_message("File "+file_name+" not found. Caching...")
+            utilities.write_json_to_file(self._news_folder, data)
+            self._print_log_message("News folder created successfully")
+        else:
+            self._print_log_message("File "+file_name+" found. No need to cache")

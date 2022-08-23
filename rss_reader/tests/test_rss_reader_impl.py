@@ -9,7 +9,7 @@ from unittest.mock import patch
 
 from src.rss_reader_errors import RSSParsingError
 from src.rss_reader_impl import RSSReader
-from src.utilities import get_current_date
+from src.utilities import get_formatted_current_date_for_log
 
 
 class TestRSSReader(TestCase):
@@ -52,7 +52,7 @@ class TestRSSReader(TestCase):
     def test_print_log_message(self):
         with patch('sys.stdout', new=StringIO()) as mock_out:
             self.rss_reader_verbose._print_log_message("Test message")
-            self.assertEqual(mock_out.getvalue(), "Test message " + get_current_date() + "\n")
+            self.assertEqual(mock_out.getvalue(), "Test message " + get_formatted_current_date_for_log() + "\n")
 
     def test_not_print_log_message(self):
         with patch('sys.stdout', new=StringIO()) as mock_out:
