@@ -21,6 +21,7 @@ class RSSReader:
     _limit = 0
     _date = ""
     _news_folder = 'news'
+    _rss_feed = None
 
     def __init__(self, url, is_JSON_needed=False, is_verbose=False, limit=0, date="") -> None:
         """
@@ -49,7 +50,7 @@ class RSSReader:
 
         self._print_log_message("Getting RSS-feed")
         try:
-            rss_feed = self._get_feed(self._rss_feed_url)
+            self._rss_feed = self._get_feed(self._rss_feed_url)
         except URLNotFoundError as err:
             print("The URL not found. Check the URL and try again", str(err))
             sys.exit(1)
@@ -62,7 +63,7 @@ class RSSReader:
 
         self._print_log_message("Getting posts")
         try:
-            data = self._get_posts_details(rss_feed)
+            data = self._get_posts_details()
         except RSSParsingError as err:
             print("RSS feed parsing error occurred", str(err))
             sys.exit(1)
@@ -88,6 +89,27 @@ class RSSReader:
         if self._verbose_mode:
             print(message, utilities.get_formatted_current_date_for_log())
 
+    def _search_historical_data(self, date: str) -> None:
+        """
+        Search and print news by a particular date from the cache
+
+        :param str date: the CLI arg - input date
+        :return: None
+        """
+        if date is not None:
+            try:
+                utilities.validate_news_date_argument(self._date)
+            except InvalidNewsDateError as err:
+                print("The invalid date. The date should be in 'yyyymmdd' format", str(err))
+                sys.exit(1)
+            if utilities.is_dir_exists(self._news_folder):
+                self._print_log_message("Searching news...")
+                utilities.search_and_print_news(self._news_folder, self._date)
+            else:
+                self._print_log_message("News folder not found")
+        else:
+            self._print_log_message("Date for searching was not provided")
+
     def _get_feed(self, url):
         """
         Get the RSS feed from the RSS-feed URL
@@ -98,41 +120,38 @@ class RSSReader:
         utilities.check_feed_url(url)
         return feedparser.parse(url)
 
-    def _get_posts_details(self, rss_feed) -> dict:
+    def _get_posts_details(self) -> dict:
         """
         Get a formatted dictionary of RSS feed topics
 
-        :param rss_feed: an RSS-feed object
         :return: formatted dict
         """
-        posts_details = {"Blog title": self._get_feed_name(rss_feed), "Blog link": self._get_feed_link(rss_feed),
+        posts_details = {"Blog title": self._get_feed_name(), "Blog link": self._get_feed_link(),
                          "posts": self._get_posts_list()}
         return posts_details
 
-    def _get_feed_name(self, rss_feed) -> str:
+    def _get_feed_name(self) -> str:
         """
         Return the RSS-feed name
 
-        :param rss_feed: an RSS-feed object
         :return: str the RSS-feed name
         """
         self._print_log_message("Getting the feed name")
         try:
-            feed_name = rss_feed.feed.title
+            feed_name = self._rss_feed.feed.title
         except AttributeError:
             raise RSSParsingError
         return feed_name
 
-    def _get_feed_link(self, rss_feed) -> str:
+    def _get_feed_link(self) -> str:
         """
         Return the RSS-feed link
 
-        :param rss_feed: an RSS-feed object
         :return: str the RSS-feed link
         """
         self._print_log_message("Getting the feed link")
         try:
-            feed_link = rss_feed.feed.link
+            feed_link = self._rss_feed.feed.link
         except AttributeError:
             raise RSSParsingError
         return feed_link
@@ -144,9 +163,8 @@ class RSSReader:
         :return: a list of posts
         """
         posts_list = []
-        posts = self._get_feed(self._rss_feed_url)
         self._print_log_message("Getting the posts list")
-        for post in posts.entries:
+        for post in self._rss_feed.entries:
             if post.title in [x['title'] for x in posts_list]:
                 pass
             else:
@@ -163,27 +181,12 @@ class RSSReader:
         :return: a parsed RSS topic dict
         """
         post = dict()
-        self._print_log_message("Getting a post")
         post['title'] = entry.title
         post['date'] = time.strftime('%Y%m%d', entry.published_parsed)
         post['link'] = entry.link
         post['links'] = [link.href for link in entry.links]
 
         return post
-
-    def _show_rss_as_plain_text(self, data) -> None:
-        """
-        Print results in human-readable format
-
-        :param data: a formatted dictionary of RSS feed topics
-        :return: None
-        """
-        if self._is_print_all():
-            self._print_log_message("Printing all posts as a plain text")
-            print(data)
-        else:
-            self._print_log_message("Printing limited posts as a plain text")
-            self._limited_print(data)
 
     def _show_rss_as_json(self, data) -> None:
         """
@@ -194,7 +197,7 @@ class RSSReader:
         """
         if self._is_print_all():
             self._print_log_message("Printing all posts as a JSON")
-            print(json.dumps(data, indent=2))
+            print(json.dumps(data, ensure_ascii=False, indent=4))
         else:
             self._print_log_message("Printing limited posts as a JSON")
             self._limited_print(data)
@@ -205,20 +208,18 @@ class RSSReader:
 
         :return: bool
         """
-        rss_feed = self._get_feed(self._rss_feed_url)
-        feed_length = self._get_feed_length(rss_feed)
+        feed_length = self._get_feed_length()
         if self._limit == 0 or self._limit > feed_length:
             return True
 
-    def _get_feed_length(self, rss_feed) -> int:
+    def _get_feed_length(self) -> int:
         """
         Return the RSS-feed topics count
 
-        :param rss_feed: an RSS-feed object
         :return: int the RSS-feed topics count
         """
         self._print_log_message("Getting the feed length")
-        return len(rss_feed.entries)
+        return len(self._rss_feed.entries)
 
     def _limited_print(self, data) -> None:
         """
@@ -236,28 +237,35 @@ class RSSReader:
             if limit == self._limit:
                 break
 
-    def _search_historical_data(self, date: str) -> None:
-        if date is not None:
-            try:
-                utilities.validate_news_date_argument(self._date)
-            except InvalidNewsDateError as err:
-                print("The invalid date. The date should be in 'yyyymmdd' format", str(err))
-                sys.exit(1)
-            if utilities.is_dir_exists(self._news_folder):
-                self._print_log_message("Searching news...")
-                utilities.search_and_print(self._news_folder, self._date)
-            else:
-                self._print_log_message("News folder not found. Creating...")
-                utilities.create_news_folder(self._news_folder)
-                self._print_log_message("News saved successfully")
+    def _show_rss_as_plain_text(self, data) -> None:
+        """
+        Print results in human-readable format
+
+        :param data: a formatted dictionary of RSS feed topics
+        :return: None
+        """
+        if self._is_print_all():
+            self._print_log_message("Printing all posts as a plain text")
+            print(data)
         else:
-            self._print_log_message("Date for searching was not provided")
+            self._print_log_message("Printing limited posts as a plain text")
+            self._limited_print(data)
 
     def _save_historical_data(self, data) -> None:
+        """
+        Save the RSS news
+
+        :param data: a formatted dictionary of RSS feed topics
+        :return: None
+        """
+        if not utilities.is_dir_exists(self._news_folder):
+            self._print_log_message("News folder not found. Creating...")
+            utilities.create_news_folder(self._news_folder)
+            self._print_log_message("News folder created successfully")
         file_name = utilities.get_file_name(self._news_folder, data)
         if not utilities.is_file_exists(file_name):
-            self._print_log_message("File "+file_name+" not found. Caching...")
+            self._print_log_message("File " + file_name + " not found. Caching...")
             utilities.write_json_to_file(self._news_folder, data)
-            self._print_log_message("News folder created successfully")
+            self._print_log_message("News saved successfully")
         else:
-            self._print_log_message("File "+file_name+" found. No need to cache")
+            self._print_log_message("File " + file_name + " found. No need to cache")
