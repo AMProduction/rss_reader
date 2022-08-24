@@ -104,7 +104,7 @@ class RSSReader:
                 sys.exit(1)
             if utilities.is_dir_exists(self._news_folder):
                 self._print_log_message("Searching news...")
-                utilities.search_and_print_news(self._news_folder, self._date)
+                utilities.search_and_print_news_2(self._news_folder, self._date)
             else:
                 self._print_log_message("News folder not found")
         else:

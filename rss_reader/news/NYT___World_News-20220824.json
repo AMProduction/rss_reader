@@ -1,0 +1,537 @@
+{
+    "Blog title": "NYT > World News",
+    "Blog link": "https://www.nytimes.com/section/world",
+    "posts": [
+        {
+            "title": "Zelensky Is Defiant as Ukraine Celebrates Independence Day",
+            "date": "20220824",
+            "link": "https://www.nytimes.com/live/2022/08/24/world/ukraine-russia-war-news",
+            "links": [
+                "https://www.nytimes.com/live/2022/08/24/world/ukraine-russia-war-news",
+                "https://www.nytimes.com/live/2022/08/24/world/ukraine-russia-war-news"
+            ]
+        },
+        {
+            "title": "After 6 Months of War in Ukraine, Here’s Where the Conflict Stands",
+            "date": "20220824",
+            "link": "https://www.nytimes.com/2022/08/24/world/europe/ukraine-russia-six-months.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/24/world/europe/ukraine-russia-six-months.html",
+                "https://www.nytimes.com/2022/08/24/world/europe/ukraine-russia-six-months.html"
+            ]
+        },
+        {
+            "title": "The Costs and Casualties Six Months After Russia Invaded Ukraine",
+            "date": "20220824",
+            "link": "https://www.nytimes.com/2022/08/24/world/europe/russia-ukraine-war-toll.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/24/world/europe/russia-ukraine-war-toll.html",
+                "https://www.nytimes.com/2022/08/24/world/europe/russia-ukraine-war-toll.html"
+            ]
+        },
+        {
+            "title": "A New Generation of Voters Will Test Angola’s Longtime Governing Party",
+            "date": "20220824",
+            "link": "https://www.nytimes.com/2022/08/24/world/africa/angola-election-youth.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/24/world/africa/angola-election-youth.html",
+                "https://www.nytimes.com/2022/08/24/world/africa/angola-election-youth.html"
+            ]
+        },
+        {
+            "title": "Can an Iconic Italian Wool Survive a Changing Economy?",
+            "date": "20220824",
+            "link": "https://www.nytimes.com/2022/08/24/world/europe/italy-wool-casentino-factory.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/24/world/europe/italy-wool-casentino-factory.html",
+                "https://www.nytimes.com/2022/08/24/world/europe/italy-wool-casentino-factory.html"
+            ]
+        },
+        {
+            "title": "South Korea’s Fertility Rate Is World’s Lowest, Again",
+            "date": "20220824",
+            "link": "https://www.nytimes.com/2022/08/24/world/asia/south-korea-fertility-rate.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/24/world/asia/south-korea-fertility-rate.html",
+                "https://www.nytimes.com/2022/08/24/world/asia/south-korea-fertility-rate.html"
+            ]
+        },
+        {
+            "title": "India, a Dairy Titan, Studies How to Keep Milk Flowing in a Hotter World",
+            "date": "20220824",
+            "link": "https://www.nytimes.com/2022/08/24/world/asia/india-climate-change-milk-prices.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/24/world/asia/india-climate-change-milk-prices.html",
+                "https://www.nytimes.com/2022/08/24/world/asia/india-climate-change-milk-prices.html"
+            ]
+        },
+        {
+            "title": "In Ukraine, a Nuclear Plant Held Hostage",
+            "date": "20220824",
+            "link": "https://www.nytimes.com/2022/08/23/world/europe/ukraine-zaporizhzhia-nuclear-power-plant.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/23/world/europe/ukraine-zaporizhzhia-nuclear-power-plant.html",
+                "https://www.nytimes.com/2022/08/23/world/europe/ukraine-zaporizhzhia-nuclear-power-plant.html"
+            ]
+        },
+        {
+            "title": "Nicaragua Silences Its Last Outspoken Critics: Catholic Priests",
+            "date": "20220824",
+            "link": "https://www.nytimes.com/2022/08/23/world/americas/nicaragua-catholic-church-daniel-ortega.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/23/world/americas/nicaragua-catholic-church-daniel-ortega.html",
+                "https://www.nytimes.com/2022/08/23/world/americas/nicaragua-catholic-church-daniel-ortega.html"
+            ]
+        },
+        {
+            "title": "Najib Razak, Malaysia’s Former Prime Minister, Is Headed to Prison",
+            "date": "20220823",
+            "link": "https://www.nytimes.com/2022/08/23/world/asia/najib-razak-malaysia-1mdb-prison.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/23/world/asia/najib-razak-malaysia-1mdb-prison.html",
+                "https://www.nytimes.com/2022/08/23/world/asia/najib-razak-malaysia-1mdb-prison.html"
+            ]
+        },
+        {
+            "title": "In Vancouver, Indigenous Communities Get Prime Land, and Power",
+            "date": "20220823",
+            "link": "https://www.nytimes.com/2022/08/23/world/americas/canada-vancouver-indigenous.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/23/world/americas/canada-vancouver-indigenous.html",
+                "https://www.nytimes.com/2022/08/23/world/americas/canada-vancouver-indigenous.html"
+            ]
+        },
+        {
+            "title": "Europe’s Drought Reveals WWII Relics and Bombs in Danube River",
+            "date": "20220824",
+            "link": "https://www.nytimes.com/2022/08/23/world/europe/danube-river-shipwrecks-drought.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/23/world/europe/danube-river-shipwrecks-drought.html",
+                "https://www.nytimes.com/2022/08/23/world/europe/danube-river-shipwrecks-drought.html"
+            ]
+        },
+        {
+            "title": "Hungary Fires Its Top Weather Officials After an Inaccurate Forecast",
+            "date": "20220823",
+            "link": "https://www.nytimes.com/2022/08/23/world/europe/hungary-weather-forecast-fireworks.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/23/world/europe/hungary-weather-forecast-fireworks.html",
+                "https://www.nytimes.com/2022/08/23/world/europe/hungary-weather-forecast-fireworks.html"
+            ]
+        },
+        {
+            "title": "Pakistan’s Imran Khan Is Now the Target of Forces He Once Wielded",
+            "date": "20220823",
+            "link": "https://www.nytimes.com/2022/08/23/world/asia/imran-khan-pakistan.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/23/world/asia/imran-khan-pakistan.html",
+                "https://www.nytimes.com/2022/08/23/world/asia/imran-khan-pakistan.html"
+            ]
+        },
+        {
+            "title": "Biden Announces Nearly $3 Billion in Aid for Ukraine",
+            "date": "20220824",
+            "link": "https://www.nytimes.com/2022/08/24/world/europe/biden-ukraine-aid.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/24/world/europe/biden-ukraine-aid.html",
+                "https://www.nytimes.com/2022/08/24/world/europe/biden-ukraine-aid.html"
+            ]
+        },
+        {
+            "title": "Churchill Portrait Disappears in Art Heist in Canada",
+            "date": "20220824",
+            "link": "https://www.nytimes.com/2022/08/24/world/canada/churchill-portrait-stolen-canada.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/24/world/canada/churchill-portrait-stolen-canada.html",
+                "https://www.nytimes.com/2022/08/24/world/canada/churchill-portrait-stolen-canada.html"
+            ]
+        },
+        {
+            "title": "Tim Page, Gonzo Photographer of the Vietnam War, Is Dead at 78",
+            "date": "20220824",
+            "link": "https://www.nytimes.com/2022/08/24/world/asia/tim-page-dead.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/24/world/asia/tim-page-dead.html",
+                "https://www.nytimes.com/2022/08/24/world/asia/tim-page-dead.html"
+            ]
+        },
+        {
+            "title": "Yevgeny Roizman, Ukraine War Critic, Is Detained in Russia",
+            "date": "20220824",
+            "link": "https://www.nytimes.com/2022/08/24/world/europe/yevgeny-roizman-arrest.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/24/world/europe/yevgeny-roizman-arrest.html",
+                "https://www.nytimes.com/2022/08/24/world/europe/yevgeny-roizman-arrest.html"
+            ]
+        },
+        {
+            "title": "Deniers, Enablers, Accepters",
+            "date": "20220824",
+            "link": "https://www.nytimes.com/2022/08/24/briefing/republicans-trump-election-fraud.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/24/briefing/republicans-trump-election-fraud.html",
+                "https://www.nytimes.com/2022/08/24/briefing/republicans-trump-election-fraud.html"
+            ]
+        },
+        {
+            "title": "These Party Islands in Greece Want to Change Their Image",
+            "date": "20220824",
+            "link": "https://www.nytimes.com/2022/08/24/travel/mykonos-greece-santorini-party-islands.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/24/travel/mykonos-greece-santorini-party-islands.html",
+                "https://www.nytimes.com/2022/08/24/travel/mykonos-greece-santorini-party-islands.html"
+            ]
+        },
+        {
+            "title": "On the eve of Ukraine’s Independence Day, Zelensky vows to take back Crimea.",
+            "date": "20220824",
+            "link": "https://www.nytimes.com/2022/08/24/world/europe/on-the-eve-of-ukraines-independence-day-zelensky-vows-to-take-back-crimea.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/24/world/europe/on-the-eve-of-ukraines-independence-day-zelensky-vows-to-take-back-crimea.html",
+                "https://www.nytimes.com/2022/08/24/world/europe/on-the-eve-of-ukraines-independence-day-zelensky-vows-to-take-back-crimea.html"
+            ]
+        },
+        {
+            "title": "Corrections: Aug. 24, 2022",
+            "date": "20220824",
+            "link": "https://www.nytimes.com/2022/08/24/world/corrections-aug-24-2022.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/24/world/corrections-aug-24-2022.html",
+                "https://www.nytimes.com/2022/08/24/world/corrections-aug-24-2022.html"
+            ]
+        },
+        {
+            "title": "Foes Agree on Nuclear Disaster Risk in Ukraine, but Little Else",
+            "date": "20220824",
+            "link": "https://www.nytimes.com/2022/08/23/world/europe/ukraine-russia-zaporizhzhia-nuclear.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/23/world/europe/ukraine-russia-zaporizhzhia-nuclear.html",
+                "https://www.nytimes.com/2022/08/23/world/europe/ukraine-russia-zaporizhzhia-nuclear.html"
+            ]
+        },
+        {
+            "title": "Daria Dugina built ties with the French far right.",
+            "date": "20220823",
+            "link": "https://www.nytimes.com/2022/08/24/world/europe/daria-dugina-built-ties-with-the-french-far-right.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/24/world/europe/daria-dugina-built-ties-with-the-french-far-right.html",
+                "https://www.nytimes.com/2022/08/24/world/europe/daria-dugina-built-ties-with-the-french-far-right.html"
+            ]
+        },
+        {
+            "title": "Your Wednesday Briefing",
+            "date": "20220823",
+            "link": "https://www.nytimes.com/2022/08/23/briefing/malaysia-prime-minister-ukraine.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/23/briefing/malaysia-prime-minister-ukraine.html",
+                "https://www.nytimes.com/2022/08/23/briefing/malaysia-prime-minister-ukraine.html"
+            ]
+        },
+        {
+            "title": "Your Doppelgänger Is Out There and You Probably Share DNA With Them",
+            "date": "20220823",
+            "link": "https://www.nytimes.com/2022/08/23/science/doppelgangers-twins-dna.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/23/science/doppelgangers-twins-dna.html",
+                "https://www.nytimes.com/2022/08/23/science/doppelgangers-twins-dna.html"
+            ]
+        },
+        {
+            "title": "Why Experts Want to Rename Monkeypox",
+            "date": "20220823",
+            "link": "https://www.nytimes.com/2022/08/23/health/monkeypox-name-stigma.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/23/health/monkeypox-name-stigma.html",
+                "https://www.nytimes.com/2022/08/23/health/monkeypox-name-stigma.html"
+            ]
+        },
+        {
+            "title": "At Daria Dugina’s Memorial in Moscow, Calls for Vengeance",
+            "date": "20220823",
+            "link": "https://www.nytimes.com/2022/08/23/world/europe/daria-dugina-funeral.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/23/world/europe/daria-dugina-funeral.html",
+                "https://www.nytimes.com/2022/08/23/world/europe/daria-dugina-funeral.html"
+            ]
+        },
+        {
+            "title": "Race, Class and Traffic Deaths",
+            "date": "20220823",
+            "link": "https://www.nytimes.com/2022/08/23/briefing/traffic-deaths-class-race-covid.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/23/briefing/traffic-deaths-class-race-covid.html",
+                "https://www.nytimes.com/2022/08/23/briefing/traffic-deaths-class-race-covid.html"
+            ]
+        },
+        {
+            "title": "In China’s Ending of ‘Minions,’  Morality Triumphs",
+            "date": "20220823",
+            "link": "https://www.nytimes.com/2022/08/23/world/asia/china-minions-censorship.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/23/world/asia/china-minions-censorship.html",
+                "https://www.nytimes.com/2022/08/23/world/asia/china-minions-censorship.html"
+            ]
+        },
+        {
+            "title": "Red Cross Hotline Aims to Help Find Those Missing in Ukraine",
+            "date": "20220823",
+            "link": "https://www.nytimes.com/2022/08/23/world/europe/ukraine-missing-red-cross.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/23/world/europe/ukraine-missing-red-cross.html",
+                "https://www.nytimes.com/2022/08/23/world/europe/ukraine-missing-red-cross.html"
+            ]
+        },
+        {
+            "title": "Your Tuesday Briefing",
+            "date": "20220823",
+            "link": "https://www.nytimes.com/2022/08/23/briefing/trump-documents-ukraine-aid.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/23/briefing/trump-documents-ukraine-aid.html",
+                "https://www.nytimes.com/2022/08/23/briefing/trump-documents-ukraine-aid.html"
+            ]
+        },
+        {
+            "title": "Russia Accuses Ukraine of a Murder, and Hawks Demand Vengeance",
+            "date": "20220822",
+            "link": "https://www.nytimes.com/2022/08/22/world/europe/russia-ukraine-daria-dugina.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/22/world/europe/russia-ukraine-daria-dugina.html",
+                "https://www.nytimes.com/2022/08/22/world/europe/russia-ukraine-daria-dugina.html"
+            ]
+        },
+        {
+            "title": "Chernobyl Survivors Fear  Zaporizhzhia Nuclear Disaster Risk",
+            "date": "20220823",
+            "link": "https://www.nytimes.com/2022/08/22/world/europe/zaporizhzhia-chernobyl-survivors.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/22/world/europe/zaporizhzhia-chernobyl-survivors.html",
+                "https://www.nytimes.com/2022/08/22/world/europe/zaporizhzhia-chernobyl-survivors.html"
+            ]
+        },
+        {
+            "title": "Russia’s F.S.B. Has Been Accused of Covering Up, Rather Than Solving, Crimes",
+            "date": "20220823",
+            "link": "https://www.nytimes.com/2022/08/22/world/europe/russia-fsb-crime.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/22/world/europe/russia-fsb-crime.html",
+                "https://www.nytimes.com/2022/08/22/world/europe/russia-fsb-crime.html"
+            ]
+        },
+        {
+            "title": "Democrats Designed the Climate Law to Be a Game Changer. Here’s How.",
+            "date": "20220823",
+            "link": "https://www.nytimes.com/2022/08/22/climate/epa-supreme-court-pollution.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/22/climate/epa-supreme-court-pollution.html",
+                "https://www.nytimes.com/2022/08/22/climate/epa-supreme-court-pollution.html"
+            ]
+        },
+        {
+            "title": "Thousands Swarm to Kyiv’s Display of Captured Russian Tanks",
+            "date": "20220822",
+            "link": "https://www.nytimes.com/2022/08/22/world/europe/ukraine-independence-day-russian-tanks.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/22/world/europe/ukraine-independence-day-russian-tanks.html",
+                "https://www.nytimes.com/2022/08/22/world/europe/ukraine-independence-day-russian-tanks.html"
+            ]
+        },
+        {
+            "title": "U.N. Faces Record Humanitarian Aid Shortfall — but Not for Ukrainians",
+            "date": "20220822",
+            "link": "https://www.nytimes.com/2022/08/22/world/middleeast/humanitarian-aid-gap-un.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/22/world/middleeast/humanitarian-aid-gap-un.html",
+                "https://www.nytimes.com/2022/08/22/world/middleeast/humanitarian-aid-gap-un.html"
+            ]
+        },
+        {
+            "title": "Estonia Says Russia Has Not Asked for Help With Dugina Inquiry",
+            "date": "20220822",
+            "link": "https://www.nytimes.com/2022/08/22/world/europe/estonia-russia-ukraine-dugina.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/22/world/europe/estonia-russia-ukraine-dugina.html",
+                "https://www.nytimes.com/2022/08/22/world/europe/estonia-russia-ukraine-dugina.html"
+            ]
+        },
+        {
+            "title": "A Russian Superyacht Seized Under Sanctions Will Be Sold at Auction",
+            "date": "20220822",
+            "link": "https://www.nytimes.com/2022/08/22/world/europe/russia-yacht-auction-sanctions.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/22/world/europe/russia-yacht-auction-sanctions.html",
+                "https://www.nytimes.com/2022/08/22/world/europe/russia-yacht-auction-sanctions.html"
+            ]
+        },
+        {
+            "title": "Philippines Returns to School, Ending Long Covid Shutdown",
+            "date": "20220823",
+            "link": "https://www.nytimes.com/2022/08/22/world/asia/philippines-covid-school-shutdown-ends.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/22/world/asia/philippines-covid-school-shutdown-ends.html",
+                "https://www.nytimes.com/2022/08/22/world/asia/philippines-covid-school-shutdown-ends.html"
+            ]
+        },
+        {
+            "title": "Devouring Oysters by Battlefield, Ukrainians ‘Switch Off for a Bit’",
+            "date": "20220822",
+            "link": "https://www.nytimes.com/2022/08/22/world/europe/ukraine-oysters-wartime-life.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/22/world/europe/ukraine-oysters-wartime-life.html",
+                "https://www.nytimes.com/2022/08/22/world/europe/ukraine-oysters-wartime-life.html"
+            ]
+        },
+        {
+            "title": "Aleksandr Dugin Calls for Russia to Punish Ukraine for Daria Dugina’s Death",
+            "date": "20220822",
+            "link": "https://www.nytimes.com/2022/08/22/world/europe/dugin-daughter-bombing.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/22/world/europe/dugin-daughter-bombing.html",
+                "https://www.nytimes.com/2022/08/22/world/europe/dugin-daughter-bombing.html"
+            ]
+        },
+        {
+            "title": "Zelensky Says There Will Be No Talks if Russia Holds Show Trials",
+            "date": "20220822",
+            "link": "https://www.nytimes.com/2022/08/22/world/europe/zelensky-trials-negotiations.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/22/world/europe/zelensky-trials-negotiations.html",
+                "https://www.nytimes.com/2022/08/22/world/europe/zelensky-trials-negotiations.html"
+            ]
+        },
+        {
+            "title": "Russia Claims Ukrainian Woman Fled for Estonia After Car Bombing Attack",
+            "date": "20220823",
+            "link": "https://www.nytimes.com/2022/08/23/world/europe/russia-daria-dugina-ukraine-estonia.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/23/world/europe/russia-daria-dugina-ukraine-estonia.html",
+                "https://www.nytimes.com/2022/08/23/world/europe/russia-daria-dugina-ukraine-estonia.html"
+            ]
+        },
+        {
+            "title": "Facebook’s Four Problems",
+            "date": "20220822",
+            "link": "https://www.nytimes.com/2022/08/22/briefing/facebook-metaverse-meta-problems.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/22/briefing/facebook-metaverse-meta-problems.html",
+                "https://www.nytimes.com/2022/08/22/briefing/facebook-metaverse-meta-problems.html"
+            ]
+        },
+        {
+            "title": "Ukrainians Are Paying to Paint Personal Messages on Artillery Shells",
+            "date": "20220822",
+            "link": "https://www.nytimes.com/2022/08/22/world/europe/ukraine-artillery-shells.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/22/world/europe/ukraine-artillery-shells.html",
+                "https://www.nytimes.com/2022/08/22/world/europe/ukraine-artillery-shells.html"
+            ]
+        },
+        {
+            "title": "A Teen’s Journey Into the Internet’s Darkness and Back Again",
+            "date": "20220822",
+            "link": "https://www.nytimes.com/2022/08/22/health/adolescents-mental-health-technology.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/22/health/adolescents-mental-health-technology.html",
+                "https://www.nytimes.com/2022/08/22/health/adolescents-mental-health-technology.html"
+            ]
+        },
+        {
+            "title": "The Question Menacing Brazil’s Elections: Coup or No Coup?",
+            "date": "20220822",
+            "link": "https://www.nytimes.com/2022/08/22/world/americas/brazil-election-bolsonaro-coup.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/22/world/americas/brazil-election-bolsonaro-coup.html",
+                "https://www.nytimes.com/2022/08/22/world/americas/brazil-election-bolsonaro-coup.html"
+            ]
+        },
+        {
+            "title": "What We Know About Imran Khan, Pakistan’s Former Prime Minister",
+            "date": "20220822",
+            "link": "https://www.nytimes.com/2022/08/22/world/asia/imran-khan-what-we-know.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/22/world/asia/imran-khan-what-we-know.html",
+                "https://www.nytimes.com/2022/08/22/world/asia/imran-khan-what-we-know.html"
+            ]
+        },
+        {
+            "title": "Your Monday Briefing",
+            "date": "20220822",
+            "link": "https://www.nytimes.com/2022/08/22/briefing/russia-bombing-imran-khan.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/22/briefing/russia-bombing-imran-khan.html",
+                "https://www.nytimes.com/2022/08/22/briefing/russia-bombing-imran-khan.html"
+            ]
+        },
+        {
+            "title": "Daughter of Putin Ally, Daria Dugina, Killed by a Car Bombing in Moscow",
+            "date": "20220821",
+            "link": "https://www.nytimes.com/2022/08/21/world/europe/ukraine-russia-car-bomb.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/21/world/europe/ukraine-russia-car-bomb.html",
+                "https://www.nytimes.com/2022/08/21/world/europe/ukraine-russia-car-bomb.html"
+            ]
+        },
+        {
+            "title": "Imran Khan, Pakistan’s Ex-Premier, Charged Under Terrorism Act",
+            "date": "20220822",
+            "link": "https://www.nytimes.com/2022/08/21/world/asia/pakistan-imran-khan.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/21/world/asia/pakistan-imran-khan.html",
+                "https://www.nytimes.com/2022/08/21/world/asia/pakistan-imran-khan.html"
+            ]
+        },
+        {
+            "title": "In Russians’ New Feed, a War Over Western Plans to Subjugate Them",
+            "date": "20220822",
+            "link": "https://www.nytimes.com/2022/08/21/world/europe/russian-media-ukraine-war.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/21/world/europe/russian-media-ukraine-war.html",
+                "https://www.nytimes.com/2022/08/21/world/europe/russian-media-ukraine-war.html"
+            ]
+        },
+        {
+            "title": "Indiana Governor Leads Delegation in Visit to Taiwan for Trade Talks",
+            "date": "20220822",
+            "link": "https://www.nytimes.com/2022/08/21/world/asia/us-delegation-taiwan-trade.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/21/world/asia/us-delegation-taiwan-trade.html",
+                "https://www.nytimes.com/2022/08/21/world/asia/us-delegation-taiwan-trade.html"
+            ]
+        },
+        {
+            "title": "Who Was Daria Dugina and What Were Her Beliefs?",
+            "date": "20220821",
+            "link": "https://www.nytimes.com/2022/08/21/world/europe/daria-dugina-russia-politics.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/21/world/europe/daria-dugina-russia-politics.html",
+                "https://www.nytimes.com/2022/08/21/world/europe/daria-dugina-russia-politics.html"
+            ]
+        },
+        {
+            "title": "Some Western countries consider labeling Russia an exporter of ‘conflict diamonds.’",
+            "date": "20220821",
+            "link": "https://www.nytimes.com/2022/08/21/world/europe/amid-war-in-ukraine-some-western-countries-consider-labeling-russia-an-exporter-of-conflict-diamonds.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/21/world/europe/amid-war-in-ukraine-some-western-countries-consider-labeling-russia-an-exporter-of-conflict-diamonds.html",
+                "https://www.nytimes.com/2022/08/21/world/europe/amid-war-in-ukraine-some-western-countries-consider-labeling-russia-an-exporter-of-conflict-diamonds.html"
+            ]
+        },
+        {
+            "title": "Singapore to Repeal Ban on Sex Between Consenting Men",
+            "date": "20220821",
+            "link": "https://www.nytimes.com/2022/08/21/world/asia/singapore-gay-sex-law.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/21/world/asia/singapore-gay-sex-law.html",
+                "https://www.nytimes.com/2022/08/21/world/asia/singapore-gay-sex-law.html"
+            ]
+        },
+        {
+            "title": "Economic Neglect and Political Instability Unraveled Tunisia’s Democracy",
+            "date": "20220821",
+            "link": "https://www.nytimes.com/2022/08/21/world/middleeast/tunisia-democracy.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/21/world/middleeast/tunisia-democracy.html",
+                "https://www.nytimes.com/2022/08/21/world/middleeast/tunisia-democracy.html"
+            ]
+        }
+    ]
+}

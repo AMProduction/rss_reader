@@ -4,10 +4,12 @@
 #  Copyright (c) 2022.
 import json
 import os
+import re
 from datetime import datetime
 
 import requests
 
+from src import file_processing_utilities
 from src.rss_reader_errors import URLNotFoundError, IncorrectURLError, InvalidURLError, InvalidNewsDateError
 
 
@@ -60,6 +62,21 @@ def validate_news_date_argument(input_data: str) -> None:
         datetime.strptime(input_data, format_yyyymmdd)
     except ValueError:
         raise InvalidNewsDateError
+
+
+def search_and_print_news_2(news_folder: str, date: str) -> None:
+    news_file_extension = '*.json'
+    news_files_names = file_processing_utilities.gen_find(news_file_extension, news_folder)
+    files = file_processing_utilities.gen_opener(news_files_names)
+    for news_json in files:
+        data = json.load(news_json)
+        print("********************************************************************")
+        print("File name:", news_json.name)
+        for post in data['posts']:
+            if any([True for k, v in post.items() if v == date]):
+                print("********************************************************************")
+                for k, v in post.items():
+                    print(k, v)
 
 
 def search_and_print_news(news_folder: str, date: str) -> None:
@@ -118,8 +135,18 @@ def get_file_name(news_folder: str, data: dict) -> str:
     :return: full file name
     """
     file_extension = '.json'
-    feed_name = _convert_space_to_underscore(data['Blog title'])
+    feed_name = _convert_space_to_underscore(_clean_filename(data['Blog title']))
     return os.path.join(news_folder, _set_file_name(feed_name) + file_extension)
+
+
+def _clean_filename(input_str: str) -> str:
+    """
+    Remove the special characters from the string. Keep spaces
+
+    :param str input_str: string for transformation
+    :return: string without special characters
+    """
+    return re.sub(r"[^a-zA-Z0-9\u0400-\u04FF]", " ", input_str)
 
 
 def _convert_space_to_underscore(input_str: str) -> str:
