@@ -65,12 +65,12 @@ class TestRSSReader(TestCase):
         self.assertEqual(data['Blog title'], "Yahoo News - Latest News & Headlines")
         self.assertEqual(data['Blog link'], "https://www.yahoo.com/news")
 
-    def test_test_get_feed_name_exception(self):
+    def test_get_feed_name_exception(self):
         test_object = "Test"
         with self.assertRaises(RSSParsingError):
             self.rss_reader_full._get_feed_name(test_object)
 
-    def test_test_get_feed_link_exception(self):
+    def test_get_feed_link_exception(self):
         test_object = "Test"
         with self.assertRaises(RSSParsingError):
             self.rss_reader_full._get_feed_link(test_object)

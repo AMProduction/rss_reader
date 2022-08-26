@@ -10,10 +10,13 @@ from src.rss_reader_impl import RSSReader
 # adding CLI arguments
 parser = argparse.ArgumentParser(prog='RSS reader', description='Pure Python command-line RSS reader.',
                                  epilog='Enjoy the program!')
-parser.add_argument('url', type=str, help='RSS feed URL')
+parser.add_argument('--url',
+                    action='store',
+                    type=str,
+                    help='RSS feed URL')
 parser.add_argument('--version',
                     action='version',
-                    version='%(prog)s v.1.0',
+                    version='%(prog)s v.3.0',
                     help='Print version info and exits')
 parser.add_argument('-j',
                     '--json',
@@ -35,6 +38,10 @@ args = parser.parse_args()
 
 
 # check and initial defining optional arguments
+def set_url(arguments) -> str:
+    return arguments.url
+
+
 def check_is_JSON_needed(arguments) -> bool:
     return arguments.json
 

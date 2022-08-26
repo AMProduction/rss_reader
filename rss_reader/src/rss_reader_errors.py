@@ -25,3 +25,7 @@ class IncorrectURLError(RSSReaderErrors):
 
 class InvalidNewsDateError(RSSReaderErrors):
     pass
+
+
+class NewsNotFoundError(RSSReaderErrors):
+    pass
