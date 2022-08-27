@@ -62,7 +62,7 @@ def set_date(arguments) -> str:
 
 
 def main():
-    rss_reader = RSSReader(args.url, check_is_JSON_needed(args), check_is_verbose(args), set_limit(args),
+    rss_reader = RSSReader(set_url(args), check_is_JSON_needed(args), check_is_verbose(args), set_limit(args),
                            set_date(args))
     rss_reader.show_rss()
 
