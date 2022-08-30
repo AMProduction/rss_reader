@@ -2,13 +2,23 @@ Changelog
 All notable changes to this project will be documented in this file.
 
 
-[4.0] - 2022-08-29
+[4.1] - 2022-08-30
+Changed
+- Small refactoring and optimization
+- CHANGELOG updated
+- Docstrings updated
+- Updated requirements.txt
+
+
+[4.0] - 2022-08-30
 Added
-- Added docstring
+- Two new optional parameters: --to_html and --to_pdf
+- Save news to PDF option
+- The font to save UTF-8 characters in the PDF
 
 Changed
-- Improvement in file processing
 - Small refactoring
+- Updated Manifest.in
 
 
 [3.3] - 2022-08-27

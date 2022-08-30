@@ -6,8 +6,8 @@ import fnmatch
 import json
 import os
 
-from src.rss_reader_errors import NewsNotFoundError
-from src.utilities import _convert_space_to_underscore, _sanitize_filename, _set_file_name
+from .rss_reader_errors import NewsNotFoundError
+from .utilities import _convert_space_to_underscore, _sanitize_filename, _set_file_name
 
 
 def gen_find(filepattern, top: str):
@@ -38,6 +38,13 @@ def gen_opener(filenames):
 
 
 def search_and_print_news(news_folder: str, date: str) -> None:
+    """
+    Search by date and print news if found
+
+    :param news_folder: the folder to search
+    :param date: the date to search
+    :return: None
+    """
     news_file_extension = '*.json'
     news_files_names = gen_find(news_file_extension, news_folder)
     files = gen_opener(news_files_names)
@@ -105,7 +112,7 @@ def get_file_name(news_folder: str, data: dict, file_extension: str) -> str:
     """
     Return full file name
 
-    :param file_extension:
+    :param file_extension: file extension
     :param str news_folder: folder to save
     :param dict data: RSS news
     :return: full file name

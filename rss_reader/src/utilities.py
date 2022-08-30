@@ -7,7 +7,7 @@ from datetime import datetime
 
 import requests
 
-from src.rss_reader_errors import URLNotFoundError, IncorrectURLError, InvalidURLError, InvalidNewsDateError
+from .rss_reader_errors import URLNotFoundError, IncorrectURLError, InvalidURLError, InvalidNewsDateError
 
 
 def _get_current_time() -> datetime:
@@ -104,9 +104,9 @@ def _get_formatted_current_date_for_file_name() -> str:
 
 def get_formatted_date_to_pdf(date_str: str) -> str:
     """
+    Returnn formatted date string
 
-
-    :param str date_str: yyyymmdd
-    :return: yyyy-mm-dd
+    :param str date_str: the string in yyyymmdd
+    :return: the string in yyyy-mm-dd
     """
     return date_str[:4] + '-' + date_str[4:6] + '-' + date_str[6:]

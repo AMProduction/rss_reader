@@ -9,9 +9,9 @@ from pprint import pprint
 
 import feedparser
 
-from src import utilities, file_processing_utilities
-from src.rss_reader_errors import *
-from src.pdf_processor import save_dict_to_pdf
+from . import utilities, file_processing_utilities
+from .rss_reader_errors import *
+from .pdf_processor import save_dict_to_pdf
 
 
 class RSSReader:

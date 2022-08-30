@@ -4,13 +4,16 @@
 #  Copyright (c) 2022.
 from fpdf import FPDF
 
-from src import file_processing_utilities, utilities
-from src.rss_reader_errors import SaveToPDFError
+from . import file_processing_utilities, utilities
+from .rss_reader_errors import SaveToPDFError
 
 news_pdf_folder = 'news_pdf'
 
 
 class PDF(FPDF):
+    """
+    Base set up the PDF
+    """
     def footer(self):
         # Position cursor at 1.5 cm from bottom:
         self.set_y(-15)
@@ -21,6 +24,13 @@ class PDF(FPDF):
 
 
 def save_dict_to_pdf(input_dict: dict, limit: int) -> None:
+    """
+    Save RSS feed topics to PDF file
+
+    :param input_dict: a formatted dictionary of RSS feed topics
+    :param limit: If `--limit` is not specified or `--limit` is larger than feed size then user should get all available news
+    :return: None
+    """
     pdf = PDF(orientation="P", unit="mm", format="A4")
     pdf.add_page()
     pdf.add_font('DejaVu', fname='DejaVuSansCondensed.ttf')
