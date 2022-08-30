@@ -2,6 +2,15 @@ Changelog
 All notable changes to this project will be documented in this file.
 
 
+[4.0] - 2022-08-29
+Added
+- Added docstring
+
+Changed
+- Improvement in file processing
+- Small refactoring
+
+
 [3.3] - 2022-08-27
 Changed
 - Readme doc updated

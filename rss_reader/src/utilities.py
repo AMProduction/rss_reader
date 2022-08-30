@@ -100,3 +100,13 @@ def _get_formatted_current_date_for_file_name() -> str:
     now = _get_current_time()
     # yyyymmdd
     return now.strftime("%Y%m%d")
+
+
+def get_formatted_date_to_pdf(date_str: str) -> str:
+    """
+
+
+    :param str date_str: yyyymmdd
+    :return: yyyy-mm-dd
+    """
+    return date_str[:4] + '-' + date_str[4:6] + '-' + date_str[6:]

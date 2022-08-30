@@ -29,3 +29,7 @@ class InvalidNewsDateError(RSSReaderErrors):
 
 class NewsNotFoundError(RSSReaderErrors):
     pass
+
+
+class SaveToPDFError(RSSReaderErrors):
+    pass

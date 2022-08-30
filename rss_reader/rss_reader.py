@@ -16,7 +16,7 @@ parser.add_argument('--url',
                     help='RSS feed URL')
 parser.add_argument('--version',
                     action='version',
-                    version='%(prog)s v.3.0',
+                    version='%(prog)s v.4.0',
                     help='Print version info and exits')
 parser.add_argument('-j',
                     '--json',
@@ -33,6 +33,12 @@ parser.add_argument('--date',
                     action='store',
                     type=str,
                     help='The date getting news from local storage')
+parser.add_argument('--to_pdf',
+                    action='store_true',
+                    help='Save results as PDF file')
+parser.add_argument('--to_html',
+                    action='store_true',
+                    help='Save results as HTML file')
 # parsing CLI arguments
 args = parser.parse_args()
 
@@ -61,9 +67,17 @@ def set_date(arguments) -> str:
     return arguments.date
 
 
+def set_pdf(arguments) -> bool:
+    return arguments.to_pdf
+
+
+def set_html(arguments) -> bool:
+    return arguments.to_html
+
+
 def main():
     rss_reader = RSSReader(set_url(args), check_is_JSON_needed(args), check_is_verbose(args), set_limit(args),
-                           set_date(args))
+                           set_date(args), set_pdf(args), set_html(args))
     rss_reader.show_rss()
 
 

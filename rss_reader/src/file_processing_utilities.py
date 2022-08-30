@@ -101,14 +101,14 @@ def is_dir_exists(dir_path: str) -> bool:
     return os.path.isdir(dir_path)
 
 
-def get_file_name(news_folder: str, data: dict) -> str:
+def get_file_name(news_folder: str, data: dict, file_extension: str) -> str:
     """
     Return full file name
 
+    :param file_extension:
     :param str news_folder: folder to save
     :param dict data: RSS news
     :return: full file name
     """
-    file_extension = '.json'
     feed_name = _convert_space_to_underscore(_sanitize_filename(data['Blog title']))
     return os.path.join(news_folder, _set_file_name(feed_name) + file_extension)

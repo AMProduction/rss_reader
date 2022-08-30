@@ -11,6 +11,7 @@ import feedparser
 
 from src import utilities, file_processing_utilities
 from src.rss_reader_errors import *
+from src.pdf_processor import save_dict_to_pdf
 
 
 class RSSReader:
@@ -21,9 +22,12 @@ class RSSReader:
     _verbose_mode = False
     _limit = 0
     _date = ""
+    _to_pdf = False
+    _to_html = False
     _news_folder = 'news'
 
-    def __init__(self, url=None, is_JSON_needed=False, is_verbose=False, limit=0, date="") -> None:
+    def __init__(self, url=None, is_JSON_needed=False, is_verbose=False, limit=0, date="", to_pdf=False,
+                 to_html=False) -> None:
         """
         The class constructor
 
@@ -37,6 +41,8 @@ class RSSReader:
         self._verbose_mode = is_verbose
         self._limit = limit
         self._date = date
+        self._to_pdf = to_pdf
+        self._to_html = to_html
 
     def show_rss(self) -> None:
         """
@@ -107,6 +113,15 @@ class RSSReader:
             except RSSParsingError as err:
                 print("RSS feed parsing error occurred", str(err))
                 sys.exit(1)
+
+            if self._to_pdf:
+                self._print_log_message("Saving to PDF...")
+                try:
+                    save_dict_to_pdf(data, self._limit)
+                except SaveToPDFError as err:
+                    print("Error during saving to PDF occurred", str(err))
+                else:
+                    self._print_log_message("Saved to PDF successfully")
 
             if self._JSON_mode:
                 self._print_log_message("JSON mode on")
@@ -282,7 +297,7 @@ class RSSReader:
             self._print_log_message("News folder not found. Creating...")
             file_processing_utilities.create_news_folder(self._news_folder)
             self._print_log_message("News folder created successfully")
-        file_name = file_processing_utilities.get_file_name(self._news_folder, data)
+        file_name = file_processing_utilities.get_file_name(self._news_folder, data, '.json')
         if not file_processing_utilities.is_file_exists(file_name):
             self._print_log_message("File " + file_name + " not found. Caching...")
             file_processing_utilities.write_json_to_file(self._news_folder, data)
