@@ -11,7 +11,8 @@ import feedparser
 
 from . import utilities, file_processing_utilities
 from .rss_reader_errors import *
-from .pdf_processor import save_dict_to_pdf
+from .pdf_processor import save_data_to_pdf
+from .html_processor import save_data_to_html
 
 
 class RSSReader:
@@ -24,7 +25,7 @@ class RSSReader:
     _date = ""
     _to_pdf = False
     _to_html = False
-    _news_folder = 'news'
+    _news_folder = 'news_json'
 
     def __init__(self, url=None, is_JSON_needed=False, is_verbose=False, limit=0, date="", to_pdf=False,
                  to_html=False) -> None:
@@ -117,11 +118,20 @@ class RSSReader:
             if self._to_pdf:
                 self._print_log_message("Saving to PDF...")
                 try:
-                    save_dict_to_pdf(data, self._limit)
+                    save_data_to_pdf(data, self._limit)
                 except SaveToPDFError as err:
                     print("Error during saving to PDF occurred", str(err))
                 else:
                     self._print_log_message("Saved to PDF successfully")
+
+            if self._to_html:
+                self._print_log_message("Saving to HTML...")
+                try:
+                    save_data_to_html(data, self._limit)
+                except SaveToHTMLError as err:
+                    print("Error during saving to HTML occurred", str(err))
+                else:
+                    self._print_log_message("Saved to HTML successfully")
 
             if self._JSON_mode:
                 self._print_log_message("JSON mode on")

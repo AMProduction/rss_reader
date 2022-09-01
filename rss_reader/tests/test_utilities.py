@@ -6,7 +6,7 @@ import unittest
 from unittest import TestCase
 
 from src.rss_reader_errors import URLNotFoundError, InvalidURLError, IncorrectURLError, InvalidNewsDateError
-from src.utilities import check_feed_url, validate_news_date_argument, _convert_space_to_underscore, _sanitize_filename
+from src.utilities import check_feed_url, validate_news_date_argument, _convert_space_to_underscore, _sanitize_filename, get_formatted_date_to_pdf
 
 
 class TestUtilities(TestCase):
@@ -31,6 +31,9 @@ class TestUtilities(TestCase):
 
     def test_sanitize_filename(self):
         self.assertEqual(_sanitize_filename("Test!23&%test.)test&&?"), "Test 23  test  test   ")
+
+    def test_formatted_date(self):
+        self.assertEqual(get_formatted_date_to_pdf("20220901"), "2022-09-01")
 
 
 if __name__ == '__main__':

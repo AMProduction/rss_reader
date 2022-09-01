@@ -33,3 +33,7 @@ class NewsNotFoundError(RSSReaderErrors):
 
 class SaveToPDFError(RSSReaderErrors):
     pass
+
+
+class SaveToHTMLError(RSSReaderErrors):
+    pass

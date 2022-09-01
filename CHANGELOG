@@ -2,6 +2,15 @@ Changelog
 All notable changes to this project will be documented in this file.
 
 
+[4.2] - 2022-09-01
+Added
+- Save news to HTML option
+- Unit tests added
+Changed
+- Refactoring and optimization
+- CHANGELOG updated
+- Readme doc updated
+
 [4.1] - 2022-08-30
 Changed
 - Small refactoring and optimization
@@ -9,13 +18,11 @@ Changed
 - Docstrings updated
 - Updated requirements.txt
 
-
 [4.0] - 2022-08-30
 Added
 - Two new optional parameters: --to_html and --to_pdf
 - Save news to PDF option
 - The font to save UTF-8 characters in the PDF
-
 Changed
 - Small refactoring
 - Updated Manifest.in
@@ -28,7 +35,6 @@ Changed
 - setup.py updated
 - Refactoring and optimization
 
-
 [3.2] - 2022-08-26
 Changed
 - RSS source URL is now converted to an optional argument
@@ -36,15 +42,12 @@ Changed
 - Updated requirements.txt and Manifest.in
 - Refactoring and optimization
 
-
 [3.1] - 2022-08-24
 Added
 - Added docstring
-
 Changed
 - Improvement in file processing
 - Small refactoring
-
 
 [3.0] - 2022-08-23
 Added
@@ -55,7 +58,6 @@ Added
 [2.0] - 2022-08-22
 Added
 - Added setup.py
-
 Changed
 - Changed project structure
 - Readme doc updated
@@ -66,24 +68,19 @@ Changed
 [1.5] - 2022-08-20
 Added
 - Added setUp() method to unit tests
-
 Changed
 - Readme doc updated
-
 
 [1.4] - 2022-08-19
 Changed
 - CHANGELOG updated
 
-
 [1.3] - 2022-08-18
 Added
 - Unit tests added
 - Added CHANGELOG
-
 Changed
 - Readme doc updated
-
 
 [1.2] - 2022-08-17
 Added
@@ -92,13 +89,11 @@ Added
 - Added unit tests stub
 - Added errors handling
 - Added LICENSE
-
 Changed
 - Small refactoring of logging
 - Requirements.txt updated
 - Readme doc updated
 - Small refactoring and optimization
-
 
 [1.1] - 2022-08-16
 Added
@@ -108,9 +103,7 @@ Added
 - Added requirements.txt
 - Added printing all logs in stdout
 
-
 [1.0] - 2022-08-15
 Added
 - The initial project setup
 - CLI args parsing
-

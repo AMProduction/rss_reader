@@ -8,7 +8,7 @@ human-readable format.
 ### Usage
 
 ```
-usage: RSS reader [-h] [--url URL] [--version] [-j] [--verbose] [--limit LIMIT] [--date DATE]
+usage: RSS reader [-h] [--url URL] [--version] [-j] [--verbose] [--limit LIMIT] [--date DATE] [--to_pdf] [--to_html]
 
 Pure Python command-line RSS reader.
 
@@ -20,6 +20,8 @@ options:
   --verbose      Outputs verbose status messages
   --limit LIMIT  Limit news topics if this parameter provided
   --date DATE    The date getting news from local storage
+  --to_pdf       Save results as PDF file
+  --to_html      Save results as HTML file
 
 Enjoy the program!
 ```
@@ -29,7 +31,7 @@ Enjoy the program!
 If you are using Linux OS:
 
 ```
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 If you are using Windows OS:
@@ -41,13 +43,13 @@ python -m pip install -r requirements.txt
 ### How to run
 
 ```
-$ python rss_reader.py --url https://news.yahoo.com/rss/ --limit 3 --verbose --json --date 20220824
+python rss_reader.py --url https://news.yahoo.com/rss/ --limit 3 --verbose --json --date 20220830 --to_pdf --to_html
 ```
 
 ### How to run tests
 
 ```
-$ python -m unittest discover -v
+python -m unittest discover -v
 ```
 
 #### Coverage
@@ -55,22 +57,22 @@ $ python -m unittest discover -v
 1. Install coverage.py:
 
     ```
-    $ pip install coverage
+    pip install coverage
     ```
 
 2. Use `coverage run` to run your test suite and gather data:
     
     ```
-    $ coverage run -m unittest discover
+    coverage run -m unittest discover
     ```
 
 3. Use `coverage report` to report on the results:
     ```
-    $ coverage report -m
+    coverage report -m
     ```
 4. For a nicer presentation, use `coverage html` to get annotated HTML listings detailing missed lines:
     ```
-    $ coverage html
+    coverage html
     ```
    Then open `tests/coverage/index.html` in your browser, to see a report
 

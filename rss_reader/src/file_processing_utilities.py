@@ -73,7 +73,7 @@ def write_json_to_file(news_folder: str, data: dict) -> None:
     :param dict data: dictionary
     :return: None
     """
-    file_name = get_file_name(news_folder, data)
+    file_name = get_file_name(news_folder, data, '.json')
     with open(file_name, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 

@@ -1,0 +1,546 @@
+{
+    "Blog title": "NYT > World News",
+    "Blog link": "https://www.nytimes.com/section/world",
+    "posts": [
+        {
+            "title": "Ukraine Steps Up Strikes in the South",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/live/2022/08/30/world/ukraine-russia-war-news",
+            "links": [
+                "https://www.nytimes.com/live/2022/08/30/world/ukraine-russia-war-news",
+                "https://www.nytimes.com/live/2022/08/30/world/ukraine-russia-war-news"
+            ]
+        },
+        {
+            "title": "Ukrainian Soldiers Trade Tanks and Artillery on the Front Line",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/30/world/europe/ukrainian-soldiers-weapons-front-line.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/30/world/europe/ukrainian-soldiers-weapons-front-line.html",
+                "https://www.nytimes.com/2022/08/30/world/europe/ukrainian-soldiers-weapons-front-line.html"
+            ]
+        },
+        {
+            "title": "After Clashes Kill 24, Iraq Cleric Works to Defuse Tension in Baghdad",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/30/world/middleeast/iraq-baghdad-clashes.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/30/world/middleeast/iraq-baghdad-clashes.html",
+                "https://www.nytimes.com/2022/08/30/world/middleeast/iraq-baghdad-clashes.html"
+            ]
+        },
+        {
+            "title": "Lisa LaFlamme Ouster Sets Off Outcry in Canada",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/30/world/canada/lisa-laflamme-ctv-departure.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/30/world/canada/lisa-laflamme-ctv-departure.html",
+                "https://www.nytimes.com/2022/08/30/world/canada/lisa-laflamme-ctv-departure.html"
+            ]
+        },
+        {
+            "title": "For Singapore’s Gay Men, Repeal of Sex Ban Brings Hope After Years of Pain",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/30/world/asia/singapore-gay-sex-law.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/30/world/asia/singapore-gay-sex-law.html",
+                "https://www.nytimes.com/2022/08/30/world/asia/singapore-gay-sex-law.html"
+            ]
+        },
+        {
+            "title": "Deadly Floods Devastate an Already Fragile Pakistan",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/29/climate/pakistan-floods-monsoon.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/climate/pakistan-floods-monsoon.html",
+                "https://www.nytimes.com/2022/08/29/climate/pakistan-floods-monsoon.html"
+            ]
+        },
+        {
+            "title": "A Leading Choreographer Joins the War Effort, With Classical Ballet",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/30/arts/alexei-ratmansky-ukrainian-ballet-dancers.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/30/arts/alexei-ratmansky-ukrainian-ballet-dancers.html",
+                "https://www.nytimes.com/2022/08/30/arts/alexei-ratmansky-ukrainian-ballet-dancers.html"
+            ]
+        },
+        {
+            "title": "China Sets Key Communist Party Congress for Mid-October",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/30/world/asia/china-xi-party-congress.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/30/world/asia/china-xi-party-congress.html",
+                "https://www.nytimes.com/2022/08/30/world/asia/china-xi-party-congress.html"
+            ]
+        },
+        {
+            "title": "How German Companies Are Staring Down Putin’s Threat to Cut Off Gas",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/30/world/europe/germany-russia-energy-gas.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/30/world/europe/germany-russia-energy-gas.html",
+                "https://www.nytimes.com/2022/08/30/world/europe/germany-russia-energy-gas.html"
+            ]
+        },
+        {
+            "title": "More Vital Than Ever, Ukraine’s Trains Bind a Land Fractured by War",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/29/world/europe/ukraine-war-trains.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/world/europe/ukraine-war-trains.html",
+                "https://www.nytimes.com/2022/08/29/world/europe/ukraine-war-trains.html"
+            ]
+        },
+        {
+            "title": "As Rome Burns (or at Least Its Garbage), a Mayor Dares to Dream",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/29/world/europe/rome-garbage-fires.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/world/europe/rome-garbage-fires.html",
+                "https://www.nytimes.com/2022/08/29/world/europe/rome-garbage-fires.html"
+            ]
+        },
+        {
+            "title": "The First Shipment of Iranian Military Drones Arrives in Russia",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/29/world/europe/iran-military-drones.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/world/europe/iran-military-drones.html",
+                "https://www.nytimes.com/2022/08/29/world/europe/iran-military-drones.html"
+            ]
+        },
+        {
+            "title": "In Brazil, the Last Member of an Isolated Indigenous Tribe Dies",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/29/world/americas/man-of-the-hole-death-brazil.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/world/americas/man-of-the-hole-death-brazil.html",
+                "https://www.nytimes.com/2022/08/29/world/americas/man-of-the-hole-death-brazil.html"
+            ]
+        },
+        {
+            "title": "Angola’s Ruling Party, MPLA, Retains Power in Tightest Election Yet",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/29/world/africa/angola-election-winner-mpla.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/world/africa/angola-election-winner-mpla.html",
+                "https://www.nytimes.com/2022/08/29/world/africa/angola-election-winner-mpla.html"
+            ]
+        },
+        {
+            "title": "Chris Dawson, Subject of ‘Teacher’s Pet’ Podcast, Is Found Guilty of Wife’s Murder",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/30/world/australia/chris-dawson-verdict-teachers-pet.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/30/world/australia/chris-dawson-verdict-teachers-pet.html",
+                "https://www.nytimes.com/2022/08/30/world/australia/chris-dawson-verdict-teachers-pet.html"
+            ]
+        },
+        {
+            "title": "Vatican Criticizes Russia’s Invasion of Ukraine for the First Time",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/30/world/europe/vatican-pope-russia-invasion.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/30/world/europe/vatican-pope-russia-invasion.html",
+                "https://www.nytimes.com/2022/08/30/world/europe/vatican-pope-russia-invasion.html"
+            ]
+        },
+        {
+            "title": "U.N. Nuclear Inspectors Are in Ukraine to Visit the Zaporizhzhia Plant",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/30/world/europe/zaporizhzhia-nuclear-power-plant-iaea.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/30/world/europe/zaporizhzhia-nuclear-power-plant-iaea.html",
+                "https://www.nytimes.com/2022/08/30/world/europe/zaporizhzhia-nuclear-power-plant-iaea.html"
+            ]
+        },
+        {
+            "title": "A Poorer Generation",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/30/briefing/student-debt-economic-changes.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/30/briefing/student-debt-economic-changes.html",
+                "https://www.nytimes.com/2022/08/30/briefing/student-debt-economic-changes.html"
+            ]
+        },
+        {
+            "title": "Exploring Spain’s Arab Influence",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/30/travel/spain-travel-moorish-arab.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/30/travel/spain-travel-moorish-arab.html",
+                "https://www.nytimes.com/2022/08/30/travel/spain-travel-moorish-arab.html"
+            ]
+        },
+        {
+            "title": "The Animal Translators",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/30/science/translators-animals-naked-mole-rats.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/30/science/translators-animals-naked-mole-rats.html",
+                "https://www.nytimes.com/2022/08/30/science/translators-animals-naked-mole-rats.html"
+            ]
+        },
+        {
+            "title": "Your Tuesday Briefing",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/30/briefing/ukraine-kherson-iraq-drought.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/30/briefing/ukraine-kherson-iraq-drought.html",
+                "https://www.nytimes.com/2022/08/30/briefing/ukraine-kherson-iraq-drought.html"
+            ]
+        },
+        {
+            "title": "Ukraine Announces Offensive in Kherson, as Inspectors Head to Nuclear Plant",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/29/world/europe/ukraine-russia-counteroffensive.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/world/europe/ukraine-russia-counteroffensive.html",
+                "https://www.nytimes.com/2022/08/29/world/europe/ukraine-russia-counteroffensive.html"
+            ]
+        },
+        {
+            "title": "Greenland’s Melting Ice Sheet Could Raise Sea Levels by Nearly a Foot: Study",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/29/climate/greenland-ice-sea-levels.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/climate/greenland-ice-sea-levels.html",
+                "https://www.nytimes.com/2022/08/29/climate/greenland-ice-sea-levels.html"
+            ]
+        },
+        {
+            "title": "Your Tuesday Briefing: China Charges 28 People in Beating of Women",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/29/briefing/beating-women-china-taiwan.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/briefing/beating-women-china-taiwan.html",
+                "https://www.nytimes.com/2022/08/29/briefing/beating-women-china-taiwan.html"
+            ]
+        },
+        {
+            "title": "Vancouver Moves to Sue Big Oil After Deadly Fires and Disastrous Floods",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/29/world/canada/vancouver-floods-fires-lawsuit.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/world/canada/vancouver-floods-fires-lawsuit.html",
+                "https://www.nytimes.com/2022/08/29/world/canada/vancouver-floods-fires-lawsuit.html"
+            ]
+        },
+        {
+            "title": "Be ‘Less Squeamish’ About Drinking Recycled Wastewater, British Official Says",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/29/world/europe/uk-drinking-water-sewage.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/world/europe/uk-drinking-water-sewage.html",
+                "https://www.nytimes.com/2022/08/29/world/europe/uk-drinking-water-sewage.html"
+            ]
+        },
+        {
+            "title": "Did My Cat Just Hit On Me? An Adventure in Pet Translation",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/29/science/cats-pets-ommunication-artificial-intelligence.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/science/cats-pets-ommunication-artificial-intelligence.html",
+                "https://www.nytimes.com/2022/08/29/science/cats-pets-ommunication-artificial-intelligence.html"
+            ]
+        },
+        {
+            "title": "Air France Under Scrutiny Over Safety Incidents",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/29/world/europe/air-france-safety.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/world/europe/air-france-safety.html",
+                "https://www.nytimes.com/2022/08/29/world/europe/air-france-safety.html"
+            ]
+        },
+        {
+            "title": "China Charges 28 People, Months After Brutal Beating of Women",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/29/world/asia/china-arrests-beating-women.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/world/asia/china-arrests-beating-women.html",
+                "https://www.nytimes.com/2022/08/29/world/asia/china-arrests-beating-women.html"
+            ]
+        },
+        {
+            "title": "Ukraine announces offensive operations across the south.",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/30/world/ukraine-announces-offensive-operations-across-the-south.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/30/world/ukraine-announces-offensive-operations-across-the-south.html",
+                "https://www.nytimes.com/2022/08/30/world/ukraine-announces-offensive-operations-across-the-south.html"
+            ]
+        },
+        {
+            "title": "Iraq Clashes Leave 12 Dead After Muqtada al-Sadr Says He’s Leaving Politics",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/29/world/middleeast/iraq-sadr-politics.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/world/middleeast/iraq-sadr-politics.html",
+                "https://www.nytimes.com/2022/08/29/world/middleeast/iraq-sadr-politics.html"
+            ]
+        },
+        {
+            "title": "Americans Who Stutter",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/29/briefing/stuttering-stigma-biden-disability.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/briefing/stuttering-stigma-biden-disability.html",
+                "https://www.nytimes.com/2022/08/29/briefing/stuttering-stigma-biden-disability.html"
+            ]
+        },
+        {
+            "title": "In ‘Little Venice,’ Cruise Ships and an Influx of Tourists",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/29/travel/venice-chioggia-italy-cruise-ships.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/travel/venice-chioggia-italy-cruise-ships.html",
+                "https://www.nytimes.com/2022/08/29/travel/venice-chioggia-italy-cruise-ships.html"
+            ]
+        },
+        {
+            "title": "Secret Data, Tiny Islands and a Quest for Treasure on the Ocean Floor",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/29/world/deep-sea-mining.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/world/deep-sea-mining.html",
+                "https://www.nytimes.com/2022/08/29/world/deep-sea-mining.html"
+            ]
+        },
+        {
+            "title": "Xi Jinping’s Vision for Tech Self-Reliance in China Runs Into Reality",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/29/technology/china-semiconductors-technology.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/technology/china-semiconductors-technology.html",
+                "https://www.nytimes.com/2022/08/29/technology/china-semiconductors-technology.html"
+            ]
+        },
+        {
+            "title": "In Algeria, Macron Seeks to Reshape Traumatic Ties With France",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/29/world/africa/algeria-france-emmanuel-macron.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/world/africa/algeria-france-emmanuel-macron.html",
+                "https://www.nytimes.com/2022/08/29/world/africa/algeria-france-emmanuel-macron.html"
+            ]
+        },
+        {
+            "title": "U.N. Experts to Visit Zaporizhzhia Nuclear Plant in Ukraine",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/29/world/europe/un-zaporizhzhia-nuclear-plant-ukraine.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/world/europe/un-zaporizhzhia-nuclear-plant-ukraine.html",
+                "https://www.nytimes.com/2022/08/29/world/europe/un-zaporizhzhia-nuclear-plant-ukraine.html"
+            ]
+        },
+        {
+            "title": "Your Monday Briefing",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/29/briefing/ukraine-nuclear-finland-pride.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/29/briefing/ukraine-nuclear-finland-pride.html",
+                "https://www.nytimes.com/2022/08/29/briefing/ukraine-nuclear-finland-pride.html"
+            ]
+        },
+        {
+            "title": "Your Monday Briefing: Record Heat Disrupts China",
+            "date": "20220828",
+            "link": "https://www.nytimes.com/2022/08/28/briefing/your-monday-briefing-record-heat-disrupts-china.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/28/briefing/your-monday-briefing-record-heat-disrupts-china.html",
+                "https://www.nytimes.com/2022/08/28/briefing/your-monday-briefing-record-heat-disrupts-china.html"
+            ]
+        },
+        {
+            "title": "Shelling Near Zaporizhzhia Nuclear Plant in Ukraine Heightens Concern",
+            "date": "20220828",
+            "link": "https://www.nytimes.com/2022/08/28/world/europe/ukraine-zaporizhzhia-shelling.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/28/world/europe/ukraine-zaporizhzhia-shelling.html",
+                "https://www.nytimes.com/2022/08/28/world/europe/ukraine-zaporizhzhia-shelling.html"
+            ]
+        },
+        {
+            "title": "At Least 32 Are Killed in Clashes Between Rival Militias in Libya Kill",
+            "date": "20220828",
+            "link": "https://www.nytimes.com/2022/08/28/world/middleeast/libya-militias-hifter-dbeiba-bashagha.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/28/world/middleeast/libya-militias-hifter-dbeiba-bashagha.html",
+                "https://www.nytimes.com/2022/08/28/world/middleeast/libya-militias-hifter-dbeiba-bashagha.html"
+            ]
+        },
+        {
+            "title": "Over Caves and Over Budget, Mexico’s Train Project Barrels Toward Disaster",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/28/world/americas/maya-train-mexico-amlo.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/28/world/americas/maya-train-mexico-amlo.html",
+                "https://www.nytimes.com/2022/08/28/world/americas/maya-train-mexico-amlo.html"
+            ]
+        },
+        {
+            "title": "Danish School Is Engulfed by Bullying and Sex Abuse Scandal",
+            "date": "20220828",
+            "link": "https://www.nytimes.com/2022/08/28/world/europe/denmark-bullying-private-school.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/28/world/europe/denmark-bullying-private-school.html",
+                "https://www.nytimes.com/2022/08/28/world/europe/denmark-bullying-private-school.html"
+            ]
+        },
+        {
+            "title": "Ron DeSantis’s Florida",
+            "date": "20220828",
+            "link": "https://www.nytimes.com/2022/08/28/briefing/ron-desantis-florida.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/28/briefing/ron-desantis-florida.html",
+                "https://www.nytimes.com/2022/08/28/briefing/ron-desantis-florida.html"
+            ]
+        },
+        {
+            "title": "Cloud Wars: Mideast Rivalries Rise Along a New Front",
+            "date": "20220828",
+            "link": "https://www.nytimes.com/2022/08/28/world/middleeast/cloud-seeding-mideast-water-emirates.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/28/world/middleeast/cloud-seeding-mideast-water-emirates.html",
+                "https://www.nytimes.com/2022/08/28/world/middleeast/cloud-seeding-mideast-water-emirates.html"
+            ]
+        },
+        {
+            "title": "Referendum Seeks to Mend the Open Wound at Australia’s Heart",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/28/world/australia/voice-to-parliament-referendum.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/28/world/australia/voice-to-parliament-referendum.html",
+                "https://www.nytimes.com/2022/08/28/world/australia/voice-to-parliament-referendum.html"
+            ]
+        },
+        {
+            "title": "U.S. Warships Sail Taiwan Strait, Defying Chinese Pressure",
+            "date": "20220829",
+            "link": "https://www.nytimes.com/2022/08/28/world/asia/us-warships-taiwan-china.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/28/world/asia/us-warships-taiwan-china.html",
+                "https://www.nytimes.com/2022/08/28/world/asia/us-warships-taiwan-china.html"
+            ]
+        },
+        {
+            "title": "Pakistan Hit by Deadly Floods of ‘Epic Proportions’",
+            "date": "20220828",
+            "link": "https://www.nytimes.com/2022/08/28/world/asia/pakistan-flood.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/28/world/asia/pakistan-flood.html",
+                "https://www.nytimes.com/2022/08/28/world/asia/pakistan-flood.html"
+            ]
+        },
+        {
+            "title": "Lessons Learned, Israel’s Unlikely Islamist Kingmaker Looks Ahead",
+            "date": "20220828",
+            "link": "https://www.nytimes.com/2022/08/27/world/middleeast/israel-government-mansour-abbas.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/27/world/middleeast/israel-government-mansour-abbas.html",
+                "https://www.nytimes.com/2022/08/27/world/middleeast/israel-government-mansour-abbas.html"
+            ]
+        },
+        {
+            "title": "With Disaster Looming, Inspectors Set to Visit Ukraine Nuclear Plant",
+            "date": "20220827",
+            "link": "https://www.nytimes.com/2022/08/27/world/europe/inspectors-ukraine-nuclear-zaporizhzhia.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/27/world/europe/inspectors-ukraine-nuclear-zaporizhzhia.html",
+                "https://www.nytimes.com/2022/08/27/world/europe/inspectors-ukraine-nuclear-zaporizhzhia.html"
+            ]
+        },
+        {
+            "title": "Western officials criticize Russia for blocking a joint U.N. document on nuclear disarmament.",
+            "date": "20220828",
+            "link": "https://www.nytimes.com/2022/08/28/world/europe/western-officials-criticize-russia-for-blocking-a-joint-un-document-on-nuclear-disarmament.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/28/world/europe/western-officials-criticize-russia-for-blocking-a-joint-un-document-on-nuclear-disarmament.html",
+                "https://www.nytimes.com/2022/08/28/world/europe/western-officials-criticize-russia-for-blocking-a-joint-un-document-on-nuclear-disarmament.html"
+            ]
+        },
+        {
+            "title": "Serbia’s Leader Cancels EuroPride. Organizers Say They Will Go Ahead Anyway.",
+            "date": "20220827",
+            "link": "https://www.nytimes.com/2022/08/27/world/europe/europride-belgrade.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/27/world/europe/europride-belgrade.html",
+                "https://www.nytimes.com/2022/08/27/world/europe/europride-belgrade.html"
+            ]
+        },
+        {
+            "title": "The Long Road Ahead for Colonial Reparations",
+            "date": "20220827",
+            "link": "https://www.nytimes.com/2022/08/27/world/americas/colonial-reparations.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/27/world/americas/colonial-reparations.html",
+                "https://www.nytimes.com/2022/08/27/world/americas/colonial-reparations.html"
+            ]
+        },
+        {
+            "title": "A Holy British Island, Where the Reckless Try to Outrace the Tide",
+            "date": "20220827",
+            "link": "https://www.nytimes.com/2022/08/27/world/europe/lindisfarne-england-tides-causeway.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/27/world/europe/lindisfarne-england-tides-causeway.html",
+                "https://www.nytimes.com/2022/08/27/world/europe/lindisfarne-england-tides-causeway.html"
+            ]
+        },
+        {
+            "title": "The 5 Love Languages at 30",
+            "date": "20220827",
+            "link": "https://www.nytimes.com/2022/08/27/briefing/five-love-languages-30-years.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/27/briefing/five-love-languages-30-years.html",
+                "https://www.nytimes.com/2022/08/27/briefing/five-love-languages-30-years.html"
+            ]
+        },
+        {
+            "title": "At One of Canada’s Top Destinations, Tourists Are Back but Much Has Changed",
+            "date": "20220827",
+            "link": "https://www.nytimes.com/2022/08/27/world/canada/banff-tourism.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/27/world/canada/banff-tourism.html",
+                "https://www.nytimes.com/2022/08/27/world/canada/banff-tourism.html"
+            ]
+        },
+        {
+            "title": "Sanna Marin’s Party Scandal Highlights Finland’s Generational Divides",
+            "date": "20220827",
+            "link": "https://www.nytimes.com/2022/08/27/world/europe/sanna-marin-finland-pm-party.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/27/world/europe/sanna-marin-finland-pm-party.html",
+                "https://www.nytimes.com/2022/08/27/world/europe/sanna-marin-finland-pm-party.html"
+            ]
+        },
+        {
+            "title": "‘The Best Tool We Have’ for Self-Harming and Suicidal Teens",
+            "date": "20220830",
+            "link": "https://www.nytimes.com/2022/08/27/health/dbt-teens-suicide.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/27/health/dbt-teens-suicide.html",
+                "https://www.nytimes.com/2022/08/27/health/dbt-teens-suicide.html"
+            ]
+        },
+        {
+            "title": "War Brings Ukraine’s Women New Roles and New Dangers",
+            "date": "20220828",
+            "link": "https://www.nytimes.com/2022/08/27/world/europe/ukraine-war-women.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/27/world/europe/ukraine-war-women.html",
+                "https://www.nytimes.com/2022/08/27/world/europe/ukraine-war-women.html"
+            ]
+        },
+        {
+            "title": "Ukraine Weighs a Risky Offensive to Break Out of a Stalemate",
+            "date": "20220828",
+            "link": "https://www.nytimes.com/2022/08/26/world/europe/ukraine-russia-war-putin.html",
+            "links": [
+                "https://www.nytimes.com/2022/08/26/world/europe/ukraine-russia-war-putin.html",
+                "https://www.nytimes.com/2022/08/26/world/europe/ukraine-russia-war-putin.html"
+            ]
+        }
+    ]
+}

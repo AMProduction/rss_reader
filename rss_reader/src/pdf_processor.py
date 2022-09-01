@@ -23,7 +23,7 @@ class PDF(FPDF):
         self.cell(0, 10, f"Page {self.page_no()}/{{nb}}", align="C")
 
 
-def save_dict_to_pdf(input_dict: dict, limit: int) -> None:
+def save_data_to_pdf(input_dict: dict, limit: int) -> None:
     """
     Save RSS feed topics to PDF file
 
@@ -34,8 +34,9 @@ def save_dict_to_pdf(input_dict: dict, limit: int) -> None:
     pdf = PDF(orientation="P", unit="mm", format="A4")
     pdf.add_page()
     pdf.add_font('DejaVu', fname='DejaVuSansCondensed.ttf')
-    pdf.set_font("DejaVu", size=20)
+    pdf.set_font('DejaVu', size=20)
     pdf.write(txt=input_dict['Blog title'])
+    pdf.ln(10)
     pdf.set_font(style="U")
     link = pdf.add_link()
     pdf.write(10, input_dict['Blog link'], link)
