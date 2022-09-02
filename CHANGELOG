@@ -2,6 +2,12 @@ Changelog
 All notable changes to this project will be documented in this file.
 
 
+[4.3] - 2022-09-02
+Added
+- Unit tests added
+Changed
+- CHANGELOG updated
+
 [4.2] - 2022-09-01
 Added
 - Save news to HTML option
