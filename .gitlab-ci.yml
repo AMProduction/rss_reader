@@ -16,7 +16,6 @@ before_script:
 
 test:
   script:
-    - cd rss_reader
     - python -m unittest discover -v
 
 run:
@@ -25,15 +24,3 @@ run:
   artifacts:
     paths:
       - dist/*.whl
-
-pages:
-  script:
-    - pip install sphinx sphinx-rtd-theme
-    - cd doc
-    - make html
-    - mv build/html/ ../public/
-  artifacts:
-    paths:
-      - public
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
