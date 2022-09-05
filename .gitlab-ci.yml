@@ -15,13 +15,21 @@ before_script:
   - source venv/bin/activate
   - pip install -r requirements.txt
 
+stages:
+  - Test
+  - Build
+
 test:
+  stage: Test
   script:
     - cd rss_reader
+    - echo "Testing"
     - python -m unittest discover -v
 
-run:
+build:
+  stage: Build
   script:
+    - echo "Build"
     - python setup.py bdist_wheel
   artifacts:
     paths:
