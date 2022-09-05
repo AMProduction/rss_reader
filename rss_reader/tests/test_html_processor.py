@@ -2,13 +2,13 @@
 #  mail: snooki17@gmail.com
 #  Licensed under the MIT License
 #  Copyright (c) 2022.
+import shutil
 import unittest
 from unittest import TestCase
-import shutil
 
 from src import file_processing_utilities
-from src.rss_reader_impl import RSSReader
 from src.html_processor import save_data_to_html
+from src.rss_reader_impl import RSSReader
 
 
 class TestHTMLProcessor(TestCase):

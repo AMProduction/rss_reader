@@ -6,7 +6,8 @@ import unittest
 from unittest import TestCase
 
 from src.rss_reader_errors import URLNotFoundError, InvalidURLError, IncorrectURLError, InvalidNewsDateError
-from src.utilities import check_feed_url, validate_news_date_argument, _convert_space_to_underscore, _sanitize_filename, get_formatted_date_to_pdf
+from src.utilities import check_feed_url, validate_news_date_argument, _convert_space_to_underscore, \
+    _sanitize_filename, get_formatted_date_to_pdf
 
 
 class TestUtilities(TestCase):

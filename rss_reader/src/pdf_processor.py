@@ -33,7 +33,7 @@ def save_data_to_pdf(input_dict: dict, limit: int) -> None:
     """
     pdf = PDF(orientation="P", unit="mm", format="A4")
     pdf.add_page()
-    pdf.add_font('DejaVu', fname='fonts/DejaVuSansCondensed.ttf')
+    pdf.add_font('DejaVu', fname='./fonts/DejaVuSansCondensed.ttf')
     pdf.set_font('DejaVu', size=20)
     pdf.write(txt=input_dict['Blog title'])
     pdf.ln(10)

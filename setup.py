@@ -11,7 +11,7 @@ with open('README.md') as f:
     readme = f.read()
 
 setup(name='rss_reader',
-      version='3.0',
+      version='4.0',
       description='Pure Python command-line RSS reader',
       long_description=readme,
       classifiers=[
