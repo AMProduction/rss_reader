@@ -17,7 +17,7 @@ class PDF(FPDF):
     def footer(self):
         # Position cursor at 1.5 cm from bottom:
         self.set_y(-15)
-        # Setting font: helvetica italic 8
+        # Setting fonts: helvetica italic 8
         self.set_font("helvetica", "I", 8)
         # Printing page number:
         self.cell(0, 10, f"Page {self.page_no()}/{{nb}}", align="C")
@@ -33,7 +33,7 @@ def save_data_to_pdf(input_dict: dict, limit: int) -> None:
     """
     pdf = PDF(orientation="P", unit="mm", format="A4")
     pdf.add_page()
-    pdf.add_font('DejaVu', fname='DejaVuSansCondensed.ttf')
+    pdf.add_font('DejaVu', fname='fonts/DejaVuSansCondensed.ttf')
     pdf.set_font('DejaVu', size=20)
     pdf.write(txt=input_dict['Blog title'])
     pdf.ln(10)

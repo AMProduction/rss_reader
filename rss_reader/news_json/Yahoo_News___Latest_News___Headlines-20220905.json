@@ -1,0 +1,406 @@
+{
+    "Blog title": "Yahoo News - Latest News & Headlines",
+    "Blog link": "https://www.yahoo.com/news",
+    "posts": [
+        {
+            "title": "Police: Las Vegas journalist dies in stabbing outside home",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/police-las-vegas-journalist-dies-151834748.html",
+            "links": [
+                "https://news.yahoo.com/police-las-vegas-journalist-dies-151834748.html"
+            ]
+        },
+        {
+            "title": "Video shows an amusement park ride malfunctioning, sending over a dozen riders hurtling 50 feet to the ground",
+            "date": "20220905",
+            "link": "https://news.yahoo.com/video-shows-amusement-park-ride-050945294.html",
+            "links": [
+                "https://news.yahoo.com/video-shows-amusement-park-ride-050945294.html"
+            ]
+        },
+        {
+            "title": "Bed Bath & Beyond CFO who died after falling from NYC high rise was subject of insider trading and fraud lawsuit just before death, documents show",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/bed-bath-beyond-cfo-died-173825682.html",
+            "links": [
+                "https://news.yahoo.com/bed-bath-beyond-cfo-died-173825682.html"
+            ]
+        },
+        {
+            "title": "French tennis player accuses former coach of sexual assault",
+            "date": "20220903",
+            "link": "https://news.yahoo.com/french-tennis-player-accuses-former-235414731.html",
+            "links": [
+                "https://news.yahoo.com/french-tennis-player-accuses-former-235414731.html"
+            ]
+        },
+        {
+            "title": "Trump called on lawmakers to institute the 'death penalty for drug dealers' despite the fact that he pardoned people convicted of selling drugs",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/trump-called-lawmakers-institute-death-233816858.html",
+            "links": [
+                "https://news.yahoo.com/trump-called-lawmakers-institute-death-233816858.html"
+            ]
+        },
+        {
+            "title": "Eliza Fletcher, a Teacher and the Granddaughter of a Billionaire, Has Been Abducted",
+            "date": "20220903",
+            "link": "https://news.yahoo.com/eliza-fletcher-teacher-billionaire-granddaughter-160812612.html",
+            "links": [
+                "https://news.yahoo.com/eliza-fletcher-teacher-billionaire-granddaughter-160812612.html"
+            ]
+        },
+        {
+            "title": "Indiana officer who was shot in head is moved to hospice",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/indiana-officer-shot-head-moved-145838569.html",
+            "links": [
+                "https://news.yahoo.com/indiana-officer-shot-head-moved-145838569.html"
+            ]
+        },
+        {
+            "title": "Oregon State University professor releases destructive moths, wasps into orchards",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/oregon-state-university-professor-releases-130034773.html",
+            "links": [
+                "https://news.yahoo.com/oregon-state-university-professor-releases-130034773.html"
+            ]
+        },
+        {
+            "title": "The 10 vehicles most likely targeted for catalytic converter theft, and what cops are doing about it",
+            "date": "20220903",
+            "link": "https://news.yahoo.com/10-vehicles-most-likely-targeted-090009439.html",
+            "links": [
+                "https://news.yahoo.com/10-vehicles-most-likely-targeted-090009439.html"
+            ]
+        },
+        {
+            "title": "America's secrets: Trump's unprecedented disregard of norms",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/americas-secrets-trumps-unprecedented-disregard-120734416.html",
+            "links": [
+                "https://news.yahoo.com/americas-secrets-trumps-unprecedented-disregard-120734416.html"
+            ]
+        },
+        {
+            "title": "A passenger who launched into a homophobic and racist rant on an American flight got fired after boasting about where he worked",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/passenger-launched-homophobic-racist-rant-092548449.html",
+            "links": [
+                "https://news.yahoo.com/passenger-launched-homophobic-racist-rant-092548449.html"
+            ]
+        },
+        {
+            "title": "A former federal prosecutor says Donald Trump should be arrested 'promptly' after 'unlawfully taking' classified records: 'Did he sell them to America's adversaries?'",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/former-federal-prosecutor-says-donald-142227982.html",
+            "links": [
+                "https://news.yahoo.com/former-federal-prosecutor-says-donald-142227982.html"
+            ]
+        },
+        {
+            "title": "Military reserves, civil defense worry Taiwan as China looms",
+            "date": "20220905",
+            "link": "https://news.yahoo.com/military-reserves-civil-defense-worry-012848365.html",
+            "links": [
+                "https://news.yahoo.com/military-reserves-civil-defense-worry-012848365.html"
+            ]
+        },
+        {
+            "title": "Ohio State's Joe Burrow claim gets stronger. He attends Notre Dame game",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/ohio-states-joe-burrow-claim-233219843.html",
+            "links": [
+                "https://news.yahoo.com/ohio-states-joe-burrow-claim-233219843.html"
+            ]
+        },
+        {
+            "title": "10 dead, 15 hospitalized in Canada mass stabbing attacks",
+            "date": "20220905",
+            "link": "https://news.yahoo.com/10-dead-15-hospitalized-canada-020001548.html",
+            "links": [
+                "https://news.yahoo.com/10-dead-15-hospitalized-canada-020001548.html"
+            ]
+        },
+        {
+            "title": "Survivor of Holocaust, Munich attack heads back to Germany",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/survivor-holocaust-munich-attack-heads-062654759.html",
+            "links": [
+                "https://news.yahoo.com/survivor-holocaust-munich-attack-heads-062654759.html"
+            ]
+        },
+        {
+            "title": "A millennial who quit her 60-hour-a-week job now makes up to $15,000 a month from what used to be a side hustle, report says",
+            "date": "20220903",
+            "link": "https://news.yahoo.com/millennial-quit-her-60-hour-133053444.html",
+            "links": [
+                "https://news.yahoo.com/millennial-quit-her-60-hour-133053444.html"
+            ]
+        },
+        {
+            "title": "Nirvana Wins 'Nevermind' Lawsuit Against Man Shown On Cover As Nude 4-Month-Old",
+            "date": "20220903",
+            "link": "https://news.yahoo.com/nirvana-wins-nevermind-lawsuit-against-215659352.html",
+            "links": [
+                "https://news.yahoo.com/nirvana-wins-nevermind-lawsuit-against-215659352.html"
+            ]
+        },
+        {
+            "title": "Andy Ruiz beats Ortiz by decision in heavyweight showdown",
+            "date": "20220905",
+            "link": "https://news.yahoo.com/andy-ruiz-beats-ortiz-decision-043537498.html",
+            "links": [
+                "https://news.yahoo.com/andy-ruiz-beats-ortiz-decision-043537498.html"
+            ]
+        },
+        {
+            "title": "Delta told father he had not picked up his unaccompanied child from an airport a week after her flight",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/delta-told-father-had-not-093835817.html",
+            "links": [
+                "https://news.yahoo.com/delta-told-father-had-not-093835817.html"
+            ]
+        },
+        {
+            "title": "Trump, who received hundreds of millions of dollars from his father's real estate empire, calls John Fetterman spoiled: 'He lived off his parents' money'",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/trump-received-hundreds-millions-dollars-042149046.html",
+            "links": [
+                "https://news.yahoo.com/trump-received-hundreds-millions-dollars-042149046.html"
+            ]
+        },
+        {
+            "title": "Leak ruins NASA moon rocket launch bid; next try weeks away",
+            "date": "20220903",
+            "link": "https://news.yahoo.com/nasa-fuels-moon-rocket-weeks-110132349.html",
+            "links": [
+                "https://news.yahoo.com/nasa-fuels-moon-rocket-weeks-110132349.html"
+            ]
+        },
+        {
+            "title": "Judge unseals more details about items seized from Trump's Mar-a-Lago",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/judge-unseals-more-details-items-153833150.html",
+            "links": [
+                "https://news.yahoo.com/judge-unseals-more-details-items-153833150.html"
+            ]
+        },
+        {
+            "title": "A USC sorority went viral on TikTok. Here’s why they say it was a good thing",
+            "date": "20220903",
+            "link": "https://news.yahoo.com/usc-sorority-went-viral-tiktok-090000458.html",
+            "links": [
+                "https://news.yahoo.com/usc-sorority-went-viral-tiktok-090000458.html"
+            ]
+        },
+        {
+            "title": "GOP escalates fight against citizen-led ballot initiatives",
+            "date": "20220903",
+            "link": "https://news.yahoo.com/gop-escalates-fight-against-citizen-125302937.html",
+            "links": [
+                "https://news.yahoo.com/gop-escalates-fight-against-citizen-125302937.html"
+            ]
+        },
+        {
+            "title": "Search for missing Native artifacts led to the discovery of bodies stored in ‘the most inhumane way possible’",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/search-missing-native-artifacts-led-120000588.html",
+            "links": [
+                "https://news.yahoo.com/search-missing-native-artifacts-led-120000588.html"
+            ]
+        },
+        {
+            "title": "Why the US is becoming more brazen with its Ukraine support",
+            "date": "20220903",
+            "link": "https://news.yahoo.com/why-us-becoming-more-brazen-232423427.html",
+            "links": [
+                "https://news.yahoo.com/why-us-becoming-more-brazen-232423427.html"
+            ]
+        },
+        {
+            "title": "AP Top 25 Takeaways: Georgia underrated? Pac-12 dumped again",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/ap-top-25-takeaways-000351606.html",
+            "links": [
+                "https://news.yahoo.com/ap-top-25-takeaways-000351606.html"
+            ]
+        },
+        {
+            "title": "A Kansas teacher will receive a $95,000 settlement after she was suspended for refusing to use a student's preferred name and pronouns",
+            "date": "20220903",
+            "link": "https://news.yahoo.com/kansas-teacher-receive-95-000-205959124.html",
+            "links": [
+                "https://news.yahoo.com/kansas-teacher-receive-95-000-205959124.html"
+            ]
+        },
+        {
+            "title": "Mark Meadows turned over new texts and emails to the National Archives within a week of Mar-a-Lago raid, report says",
+            "date": "20220903",
+            "link": "https://news.yahoo.com/mark-meadows-turned-over-texts-094537989.html",
+            "links": [
+                "https://news.yahoo.com/mark-meadows-turned-over-texts-094537989.html"
+            ]
+        },
+        {
+            "title": "Coco Gauff, 18, reaches US Open quarterfinals for 1st time",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/ruud-set-u-open-quarterfinals-210931143.html",
+            "links": [
+                "https://news.yahoo.com/ruud-set-u-open-quarterfinals-210931143.html"
+            ]
+        },
+        {
+            "title": "Scorching Temperatures Just Broke A World Record In California's Death Valley",
+            "date": "20220903",
+            "link": "https://news.yahoo.com/scorching-temperatures-just-broke-world-155611104.html",
+            "links": [
+                "https://news.yahoo.com/scorching-temperatures-just-broke-world-155611104.html"
+            ]
+        },
+        {
+            "title": "Vivica A. Fox Hasn't Spoken To Jada Pinkett Smith Since Saying She Needed To Take 'Accountability' For Oscars Slap",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/vivica-fox-hasnt-spoken-jada-191800421.html",
+            "links": [
+                "https://news.yahoo.com/vivica-fox-hasnt-spoken-jada-191800421.html"
+            ]
+        },
+        {
+            "title": "Kyrgios beats 2021 champ Medvedev, discusses mental state",
+            "date": "20220905",
+            "link": "https://news.yahoo.com/kyrgios-confused-rule-beats-2021-023639633.html",
+            "links": [
+                "https://news.yahoo.com/kyrgios-confused-rule-beats-2021-023639633.html"
+            ]
+        },
+        {
+            "title": "Russian Defence Ministry spent three days thinking how to explain non-admission of journalists to Zaporizhzhia Nuclear Power Plant",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/russian-defence-ministry-spent-three-182525973.html",
+            "links": [
+                "https://news.yahoo.com/russian-defence-ministry-spent-three-182525973.html"
+            ]
+        },
+        {
+            "title": "The mother of a 16-year-old left alone overnight in an airport pleaded with a security guard to look after her daughter",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/mother-16-old-left-alone-090159542.html",
+            "links": [
+                "https://news.yahoo.com/mother-16-old-left-alone-090159542.html"
+            ]
+        },
+        {
+            "title": "Prominent Indian business leader Cyrus Mistry dies at 54",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/prominent-indian-business-leader-cyrus-132138078.html",
+            "links": [
+                "https://news.yahoo.com/prominent-indian-business-leader-cyrus-132138078.html"
+            ]
+        },
+        {
+            "title": "Hong Kong is facing its worst-ever expat exodus. Those leaving say the city is becoming no different from mainland China.",
+            "date": "20220903",
+            "link": "https://news.yahoo.com/hong-kong-facing-worst-ever-114025390.html",
+            "links": [
+                "https://news.yahoo.com/hong-kong-facing-worst-ever-114025390.html"
+            ]
+        },
+        {
+            "title": "Family of teen murder suspect set up fundraiser for legal fees. Not allowed, says GoFundMe",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/family-teen-murder-suspect-set-181439648.html",
+            "links": [
+                "https://news.yahoo.com/family-teen-murder-suspect-set-181439648.html"
+            ]
+        },
+        {
+            "title": "Pujols reaches 695 HRs, Mikolas goes 8 in Cards' win vs Cubs",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/pujols-reaches-695-hrs-mikolas-221633255.html",
+            "links": [
+                "https://news.yahoo.com/pujols-reaches-695-hrs-mikolas-221633255.html"
+            ]
+        },
+        {
+            "title": "Lindsey Graham said Trump will lose in 2024 to Biden if he doesn't curb his personality: 'If it's a personality contest, he'll be in trouble'",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/lindsey-graham-said-trump-lose-131909238.html",
+            "links": [
+                "https://news.yahoo.com/lindsey-graham-said-trump-lose-131909238.html"
+            ]
+        },
+        {
+            "title": "Focus group: Trump voters on the FBI search, 2020 and the midterms",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/focus-group-trump-voters-fbi-162918496.html",
+            "links": [
+                "https://news.yahoo.com/focus-group-trump-voters-fbi-162918496.html"
+            ]
+        },
+        {
+            "title": "Ohtani reaches 400 MLB strikeouts, Angels beat Astros in 12",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/ohtani-reaches-400-mlb-strikeouts-053959505.html",
+            "links": [
+                "https://news.yahoo.com/ohtani-reaches-400-mlb-strikeouts-053959505.html"
+            ]
+        },
+        {
+            "title": "Climber falls 900 feet to her death when rock gives way on Colorado peak, sheriff says",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/climber-falls-900-feet-her-152903543.html",
+            "links": [
+                "https://news.yahoo.com/climber-falls-900-feet-her-152903543.html"
+            ]
+        },
+        {
+            "title": "Texas governor says rape victims can prevent pregnancy by taking Plan B",
+            "date": "20220903",
+            "link": "https://news.yahoo.com/texas-governor-says-rape-victims-154014582.html",
+            "links": [
+                "https://news.yahoo.com/texas-governor-says-rape-victims-154014582.html"
+            ]
+        },
+        {
+            "title": "With no immunity, Sri Lanka's Rajapaksa faces legal troubles",
+            "date": "20220903",
+            "link": "https://news.yahoo.com/no-immunity-sri-lankas-rajapaksa-112359443.html",
+            "links": [
+                "https://news.yahoo.com/no-immunity-sri-lankas-rajapaksa-112359443.html"
+            ]
+        },
+        {
+            "title": "Brian Kelly's LSU football debut goes up in smoke in most alarming way | Toppmeyer",
+            "date": "20220905",
+            "link": "https://news.yahoo.com/brian-kellys-lsu-football-debut-040230029.html",
+            "links": [
+                "https://news.yahoo.com/brian-kellys-lsu-football-debut-040230029.html"
+            ]
+        },
+        {
+            "title": "Thomas Markle asked why he and Meghan Markle can't reconcile after she said 'forgiveness is really important'",
+            "date": "20220904",
+            "link": "https://news.yahoo.com/thomas-markle-asked-why-meghan-091419346.html",
+            "links": [
+                "https://news.yahoo.com/thomas-markle-asked-why-meghan-091419346.html"
+            ]
+        },
+        {
+            "title": "Verstappen takes pole at Dutch GP, fan ejected for flare use",
+            "date": "20220903",
+            "link": "https://news.yahoo.com/verstappen-takes-pole-dutch-gp-142642810.html",
+            "links": [
+                "https://news.yahoo.com/verstappen-takes-pole-dutch-gp-142642810.html"
+            ]
+        },
+        {
+            "title": "The reclusive owner of OnlyFans rakes in more than $500 million from the adult website in less than 2 years, report says",
+            "date": "20220903",
+            "link": "https://news.yahoo.com/reclusive-owner-onlyfans-rakes-more-152715614.html",
+            "links": [
+                "https://news.yahoo.com/reclusive-owner-onlyfans-rakes-more-152715614.html"
+            ]
+        }
+    ]
+}

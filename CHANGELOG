@@ -1,6 +1,14 @@
 Changelog
 All notable changes to this project will be documented in this file.
 
+[4.4] - 2022-09-05
+Added
+- GitLab pipeline config
+Changed
+- CHANGELOG updated
+- Refactoring and optimization
+- setup.py updated
+
 
 [4.3] - 2022-09-02
 Added

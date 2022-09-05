@@ -24,6 +24,7 @@ setup(name='rss_reader',
       author_email='snooki17@gmail.com',
       license='MIT',
       packages=find_packages(),
+      data_files=[('font', ['fonts/DejaVuSansCondensed.ttf'])],
       entry_points={
           'console_scripts': ['rss_reader=rss_reader.rss_reader:main']
       },

@@ -1,4 +1,4 @@
 include README.md
 include LICENSE
 include CHANGELOG
-include rss_reader/DejaVuSansCondensed.ttf
+include rss_reader/fonts/DejaVuSansCondensed.ttf
